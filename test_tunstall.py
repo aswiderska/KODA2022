@@ -15,11 +15,22 @@ class Test(TestCase):
         self.assertAlmostEqual(9 / 121,
                                tun._construct_tree(b'hello_world')[b'll'])
 
-    def test_encode_decode(self):
-        file = Path('data/obrazy/lena.pgm')
-        content = file.read_bytes()
+    def test_encode_decode_iamges(self):
+        images_dir = Path('./data/obrazy')
+        for image in images_dir.iterdir():
+            content = image.read_bytes()
 
-        tun = Tunstall(k=8)
-        args = tun.encode(content)
-        decoded = tun.decode(*args)
-        self.assertEqual(content, decoded)
+            tun = Tunstall(k=8)
+            args = tun.encode(content)
+            decoded = tun.decode(*args)
+            self.assertEqual(content, decoded)
+
+    def test_encode_decode_data(self):
+        data_dir = Path('./data/rozklady')
+        for data in data_dir.iterdir():
+            content = data.read_bytes()
+
+            tun = Tunstall(k=8)
+            args = tun.encode(content)
+            decoded = tun.decode(*args)
+            self.assertEqual(content, decoded)

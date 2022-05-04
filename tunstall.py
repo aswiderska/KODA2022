@@ -1,3 +1,5 @@
+from math import log
+
 from bitarray import bitarray, decodetree
 
 
@@ -17,10 +19,14 @@ class Tunstall:
 
     def _construct_tree(self, data: bytes) -> dict:
         hist = self._count_symbols(data)
+        self.stats['histogram'] = hist
 
         initial_tree = {
             symbol: count / len(data) for symbol, count in hist.items()
         }
+
+        entropy = self._calculate_entropy(list(initial_tree.values()))
+        self.stats['entropy'] = entropy
 
         new_leaves_count = len(initial_tree) - 1
 
@@ -36,6 +42,9 @@ class Tunstall:
                          sym, prob in initial_tree.items()}
 
             final_tree.update(offspring)
+
+        avg_bit_len = self._calculate_avg_bit_length(list(final_tree.keys()))
+        self.stats['avg_bit_lenght'] = avg_bit_len
 
         return final_tree
 
@@ -64,6 +73,12 @@ class Tunstall:
         for code in encoded_chars:
             encoded_bits += code
 
+        # TODO: unite the unit of size factors (all calculations in bits or
+        #  bytes) MAYBE use os.getsizeof()
+        self.stats['encoded_size'] = len(encoded_bits)
+        self.stats['encoding_size'] = len(encoding)
+        self.stats['unencoded_size'] = len(curr_text)
+
         return encoding, encoded_bits, curr_text
 
     def decode(self, encoding: dict, encoded_bits: bitarray,
@@ -75,3 +90,13 @@ class Tunstall:
             decoded_bytes.append(unencoded_bytes)
 
         return b''.join(decoded_bytes)
+
+    def _calculate_entropy(self, probabilities: list) -> float:
+        ent = 0.
+        for i in probabilities:
+            ent -= i * log(i, 2)
+        return ent
+
+    def _calculate_avg_bit_length(self, codewords: list) -> float:
+        lengths = [len(word) for word in codewords]
+        return sum(lengths) / len(codewords)
