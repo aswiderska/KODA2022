@@ -4,8 +4,6 @@ from logging import info
 from multiprocessing import Pool
 from pathlib import Path
 
-from numpy.random import default_rng
-
 from tunstall import Tunstall
 from utils import setup_logger
 
@@ -16,7 +14,6 @@ class Simulation:
     def __init__(self, config_path):
         self.config_path = config_path
         self.config = self.load_json(config_path)
-        self.results = None
 
     @staticmethod
     def load_json(path):
@@ -48,24 +45,23 @@ class Simulation:
         _process = partial(self.process, data_dir=data_dir)
         if multithreaded:
             with Pool() as pool:
-                self.results = pool.map(_process, k_values)
+                results = pool.map(_process, k_values)
         else:
-            self.results = map(_process, k_values)
+            results = map(_process, k_values)
+
+        final_results = {}
+        for result in results:
+            final_results.update(result)
 
         results_file = Path(results_path)
         results_file.parent.mkdir(parents=True, exist_ok=True)
-        results_file.write_text(dumps(list(self.results)))
+        results_file.write_text(dumps(final_results))
 
     def process(self, k, data_dir):
 
         info(f'k = {k}')
 
-        processing_results = {
-            'data_dir': str(data_dir),
-            'k': k
-        }
-
-        simulator_results = []
+        processing_results = {}
 
         for image in data_dir.iterdir():
             info(f'Running processing for {image.name}')
@@ -73,28 +69,11 @@ class Simulation:
 
             content = image.read_bytes()
             _ = tun.encode(content)
-            sim_res = tun.get_result()
+            result = tun.get_result()
 
-            sim_res['image'] = image.name
+            processing_results[image.name] = result
 
-            simulator_results.append(sim_res)
-
-        # Convert the list of dicts, to a dict of lists
-        result_keys = list(simulator_results[0].keys())
-        aggregated_dict = {k: [] for k in result_keys}
-        for res in simulator_results:
-            for k, v in res.items():
-                aggregated_dict[k].append(v)
-
-        processing_results.update(aggregated_dict)
-        return processing_results
-
-    def get_rng(self):
-        seed = self.config.get('seed', 123)
-        return default_rng(seed)
-
-    def get_results(self):
-        return self.results
+        return {k: processing_results}
 
 
 def main():

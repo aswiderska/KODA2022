@@ -1,970 +1,1396 @@
-[
-  {
-    "data_dir": "data/rozklady",
-    "k": 8,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      12.019323671497585,
-      8.0,
-      8.0,
-      22.814814814814813,
-      8.0,
-      8.0,
-      8.0,
-      12.02116402116402,
-      8.0,
-      8.0
-    ],
-    "encoded_size": [
-      238287,
-      262159,
-      4028,
-      97554,
-      11216,
-      262159,
-      1503,
-      252118,
-      6926,
-      67958
-    ],
-    "encoding_size": [
-      518,
-      412,
-      510,
-      936,
-      510,
-      484,
-      510,
-      473,
-      510,
-      510
-    ],
-    "unencoded_size": [
-      1,
-      0,
-      258131,
-      1,
-      250943,
-      0,
-      260656,
-      1,
-      255233,
-      194201
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+{
+  "2": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1,
+      "encoding_size": 4,
+      "unencoded_size": 262155,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 9,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      14.043583535108958,
-      12.009732360097324,
-      12.007827788649706,
-      27.092702169625248,
-      12.007827788649706,
-      12.008281573498964,
-      12.007827788649706,
-      14.454352441613588,
-      12.007827788649706,
-      12.007827788649706
-    ],
-    "encoded_size": [
-      231816,
-      281168,
-      291764,
-      91742,
-      292527,
-      291067,
-      293688,
-      254650,
-      290115,
-      287832
-    ],
-    "encoding_size": [
-      1190,
-      1080,
-      1342,
-      2288,
-      1342,
-      1269,
-      1342,
-      1381,
-      1342,
-      1342
-    ],
-    "unencoded_size": [
-      1,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "3": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 8.0,
+      "encoded_size": 7,
+      "encoding_size": 10,
+      "unencoded_size": 262142,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6,
+      "encoding_size": 10,
+      "unencoded_size": 262143,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 10,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      15.172413793103448,
-      14.021924482338612,
-      14.017629774730656,
-      30.7680157946693,
-      14.017629774730656,
-      14.018652849740933,
-      14.017629774730656,
-      15.268862911795962,
-      14.017629774730656,
-      14.017629774730656
-    ],
-    "encoded_size": [
-      208869,
-      287432,
-      317557,
-      88124,
-      319850,
-      315152,
-      323610,
-      243243,
-      312513,
-      305727
-    ],
-    "encoding_size": [
-      2920,
-      2466,
-      3066,
-      5163,
-      3066,
-      2898,
-      3066,
-      2973,
-      3066,
-      3066
-    ],
-    "unencoded_size": [
-      1,
-      0,
-      0,
-      3,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "4": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 8.0,
+      "encoded_size": 18,
+      "encoding_size": 23,
+      "unencoded_size": 262124,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 8.0,
+      "encoded_size": 16,
+      "encoding_size": 23,
+      "unencoded_size": 262128,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 8.0,
+      "encoded_size": 13,
+      "encoding_size": 23,
+      "unencoded_size": 262134,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 8.0,
+      "encoded_size": 980,
+      "encoding_size": 23,
+      "unencoded_size": 260199,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 8.0,
+      "encoded_size": 12,
+      "encoding_size": 23,
+      "unencoded_size": 262135,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 8.0,
+      "encoded_size": 13,
+      "encoding_size": 23,
+      "unencoded_size": 262134,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 8.0,
+      "encoded_size": 12,
+      "encoding_size": 23,
+      "unencoded_size": 262135,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 8.0,
+      "encoded_size": 12,
+      "encoding_size": 23,
+      "unencoded_size": 262135,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 8.0,
+      "encoded_size": 12,
+      "encoding_size": 23,
+      "unencoded_size": 262135,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 8.0,
+      "encoded_size": 13,
+      "encoding_size": 23,
+      "unencoded_size": 262134,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 11,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      15.64862104187947,
-      15.14192849404117,
-      15.024007839294464,
-      34.58329262335125,
-      15.024007839294464,
-      15.025401762571281,
-      15.024007839294464,
-      15.69620253164557,
-      15.024007839294464,
-      15.024007839294464
-    ],
-    "encoded_size": [
-      195201,
-      271445,
-      335891,
-      85338,
-      341047,
-      330035,
-      350177,
-      214214,
-      324727,
-      310944
-    ],
-    "encoding_size": [
-      6523,
-      6033,
-      6640,
-      11664,
-      6640,
-      6276,
-      6640,
-      6591,
-      6640,
-      6640
-    ],
-    "unencoded_size": [
-      1,
-      1,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "5": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 8.0,
+      "encoded_size": 55,
+      "encoding_size": 51,
+      "unencoded_size": 262072,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 8.0,
+      "encoded_size": 38,
+      "encoding_size": 51,
+      "unencoded_size": 262099,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 8.0,
+      "encoded_size": 26,
+      "encoding_size": 51,
+      "unencoded_size": 262118,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 8.0,
+      "encoded_size": 163850,
+      "encoding_size": 38,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 8.0,
+      "encoded_size": 27,
+      "encoding_size": 51,
+      "unencoded_size": 262117,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 8.0,
+      "encoded_size": 27,
+      "encoding_size": 51,
+      "unencoded_size": 262117,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 8.0,
+      "encoded_size": 27,
+      "encoding_size": 51,
+      "unencoded_size": 262117,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 8.0,
+      "encoded_size": 32,
+      "encoding_size": 51,
+      "unencoded_size": 262108,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 8.0,
+      "encoded_size": 26,
+      "encoding_size": 51,
+      "unencoded_size": 262118,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 8.0,
+      "encoded_size": 30,
+      "encoding_size": 51,
+      "unencoded_size": 262111,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 12,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      18.124440019910402,
-      15.613963039014374,
-      15.527566772849791,
-      38.20376252137796,
-      15.527566772849791,
-      15.529167746953592,
-      15.527566772849791,
-      15.895127380657927,
-      15.527566772849791,
-      15.527566772849791
-    ],
-    "encoded_size": [
-      193743,
-      247178,
-      341460,
-      83186,
-      350883,
-      328827,
-      370143,
-      200222,
-      322208,
-      300101
-    ],
-    "encoding_size": [
-      15130,
-      13448,
-      14043,
-      25686,
-      14043,
-      13273,
-      14043,
-      14098,
-      14043,
-      14043
-    ],
-    "unencoded_size": [
-      1,
-      0,
-      0,
-      3,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "6": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 8.0,
+      "encoded_size": 2511,
+      "encoding_size": 111,
+      "unencoded_size": 258811,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 8.0,
+      "encoded_size": 172,
+      "encoding_size": 111,
+      "unencoded_size": 261930,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 8.0,
+      "encoded_size": 62,
+      "encoding_size": 111,
+      "unencoded_size": 262077,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 12.088888888888889,
+      "encoded_size": 131189,
+      "encoding_size": 102,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 8.0,
+      "encoded_size": 66,
+      "encoding_size": 111,
+      "unencoded_size": 262072,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 8.0,
+      "encoded_size": 72,
+      "encoding_size": 111,
+      "unencoded_size": 262063,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 8.0,
+      "encoded_size": 62,
+      "encoding_size": 111,
+      "unencoded_size": 262077,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 8.0,
+      "encoded_size": 594,
+      "encoding_size": 111,
+      "unencoded_size": 261367,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 8.0,
+      "encoded_size": 67,
+      "encoding_size": 111,
+      "unencoded_size": 262070,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 8.0,
+      "encoded_size": 74,
+      "encoding_size": 111,
+      "unencoded_size": 262061,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 13,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      20.632096338166626,
-      15.831915957978989,
-      15.779438794265408,
-      41.99291386682957,
-      15.779438794265408,
-      15.788785516721147,
-      15.779438794265408,
-      19.2091942780291,
-      15.779438794265408,
-      15.779438794265408
-    ],
-    "encoded_size": [
-      190701,
-      230216,
-      330048,
-      81538,
-      342466,
-      303042,
-      377829,
-      208490,
-      303833,
-      277017
-    ],
-    "encoding_size": [
-      34213,
-      28818,
-      29359,
-      56265,
-      29359,
-      28624,
-      29359,
-      32930,
-      29359,
-      29359
-    ],
-    "unencoded_size": [
-      1,
-      1,
-      0,
-      4,
-      0,
-      1,
-      0,
-      0,
-      1,
-      0
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "7": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 8.0,
+      "encoded_size": 229390,
+      "encoding_size": 195,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 8.0,
+      "encoded_size": 4706,
+      "encoding_size": 239,
+      "unencoded_size": 256781,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 8.0,
+      "encoded_size": 178,
+      "encoding_size": 239,
+      "unencoded_size": 261956,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 19.38738738738739,
+      "encoded_size": 107993,
+      "encoding_size": 367,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 8.0,
+      "encoded_size": 207,
+      "encoding_size": 239,
+      "unencoded_size": 261923,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 8.0,
+      "encoded_size": 376,
+      "encoding_size": 239,
+      "unencoded_size": 261730,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 8.0,
+      "encoded_size": 168,
+      "encoding_size": 239,
+      "unencoded_size": 261968,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 8.0,
+      "encoded_size": 229390,
+      "encoding_size": 179,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 8.0,
+      "encoded_size": 235,
+      "encoding_size": 239,
+      "unencoded_size": 261891,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 8.0,
+      "encoded_size": 405,
+      "encoding_size": 239,
+      "unencoded_size": 261697,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 14,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      22.114055440224693,
-      17.253148925660657,
-      15.905397953556767,
-      45.53289755024742,
-      15.905397953556767,
-      15.912806539509537,
-      15.905397953556767,
-      21.555052882557927,
-      15.905397953556767,
-      15.905397953556767
-    ],
-    "encoded_size": [
-      186017,
-      230685,
-      303832,
-      80171,
-      311878,
-      265558,
-      365411,
-      211785,
-      277909,
-      255880
-    ],
-    "encoding_size": [
-      73935,
-      63272,
-      61011,
-      121812,
-      61011,
-      60379,
-      61011,
-      72697,
-      61011,
-      61011
-    ],
-    "unencoded_size": [
-      0,
-      1,
-      0,
-      1,
-      0,
-      1,
-      0,
-      2,
-      1,
-      0
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "8": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 12.019323671497585,
+      "encoded_size": 238287,
+      "encoding_size": 518,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 8.0,
+      "encoded_size": 262159,
+      "encoding_size": 412,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 8.0,
+      "encoded_size": 4028,
+      "encoding_size": 510,
+      "unencoded_size": 258131,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 22.814814814814813,
+      "encoded_size": 97554,
+      "encoding_size": 936,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 8.0,
+      "encoded_size": 11216,
+      "encoding_size": 510,
+      "unencoded_size": 250943,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 8.0,
+      "encoded_size": 262159,
+      "encoding_size": 484,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 8.0,
+      "encoded_size": 1503,
+      "encoding_size": 510,
+      "unencoded_size": 260656,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 12.02116402116402,
+      "encoded_size": 252118,
+      "encoding_size": 473,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 8.0,
+      "encoded_size": 6926,
+      "encoding_size": 510,
+      "unencoded_size": 255233,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 8.0,
+      "encoded_size": 67958,
+      "encoding_size": 510,
+      "unencoded_size": 194201,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 15,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      22.919737444664936,
-      20.26481776905142,
-      15.968383321589412,
-      49.15730028389145,
-      15.968383321589412,
-      15.97344479960659,
-      15.968383321589412,
-      22.79705315929447,
-      15.968383321589412,
-      15.968383321589412
-    ],
-    "encoded_size": [
-      182485,
-      232673,
-      275845,
-      78953,
-      273893,
-      248922,
-      325986,
-      207587,
-      261443,
-      250973
-    ],
-    "encoding_size": [
-      155258,
-      143687,
-      126355,
-      262717,
-      126355,
-      125969,
-      126355,
-      154557,
-      126355,
-      126355
-    ],
-    "unencoded_size": [
-      1,
-      1,
-      0,
-      6,
-      1,
-      1,
-      1,
-      2,
-      1,
-      1
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "9": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 14.043583535108958,
+      "encoded_size": 231816,
+      "encoding_size": 1190,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 12.009732360097324,
+      "encoded_size": 281168,
+      "encoding_size": 1080,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 12.007827788649706,
+      "encoded_size": 291764,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 27.092702169625248,
+      "encoded_size": 91742,
+      "encoding_size": 2288,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 12.007827788649706,
+      "encoded_size": 292527,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 12.008281573498964,
+      "encoded_size": 291067,
+      "encoding_size": 1269,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 12.007827788649706,
+      "encoded_size": 293688,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 14.454352441613588,
+      "encoded_size": 254650,
+      "encoding_size": 1381,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 12.007827788649706,
+      "encoded_size": 290115,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 12.007827788649706,
+      "encoded_size": 287832,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 16,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      24.92005678609046,
-      21.932105939201175,
-      15.999877452857646,
-      53.19828441473206,
-      15.999877452857646,
-      18.660215580597747,
-      15.999877452857646,
-      23.3960835788092,
-      15.999877452857646,
-      18.90608293377859
-    ],
-    "encoded_size": [
-      181226,
-      230084,
-      262262,
-      77958,
-      262228,
-      260388,
-      262620,
-      198928,
-      262210,
-      258350
-    ],
-    "encoding_size": [
-      335079,
-      310076,
-      261123,
-      566708,
-      261123,
-      282966,
-      261123,
-      322649,
-      261123,
-      284838
-    ],
-    "unencoded_size": [
-      1,
-      1,
-      1,
-      6,
-      0,
-      1,
-      0,
-      2,
-      1,
-      1
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "10": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 15.172413793103448,
+      "encoded_size": 208869,
+      "encoding_size": 2920,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 14.021924482338612,
+      "encoded_size": 287432,
+      "encoding_size": 2466,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 14.017629774730656,
+      "encoded_size": 317557,
+      "encoding_size": 3066,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 30.7680157946693,
+      "encoded_size": 88124,
+      "encoding_size": 5163,
+      "unencoded_size": 3,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 14.017629774730656,
+      "encoded_size": 319850,
+      "encoding_size": 3066,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 14.018652849740933,
+      "encoded_size": 315152,
+      "encoding_size": 2898,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 14.017629774730656,
+      "encoded_size": 323610,
+      "encoding_size": 3066,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 15.268862911795962,
+      "encoded_size": 243243,
+      "encoding_size": 2973,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 14.017629774730656,
+      "encoded_size": 312513,
+      "encoding_size": 3066,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 14.017629774730656,
+      "encoded_size": 305727,
+      "encoding_size": 3066,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 17,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      27.190669913064717,
-      22.836972121286145,
-      20.01565563702116,
-      57.406676586166114,
-      20.01565563702116,
-      21.351632228878834,
-      20.01565563702116,
-      23.700420491922127,
-      20.01565563702116,
-      21.260782324083895
-    ],
-    "encoded_size": [
-      179591,
-      224732,
-      274948,
-      77176,
-      276301,
-      270632,
-      277959,
-      193596,
-      271012,
-      262011
-    ],
-    "encoding_size": [
-      723717,
-      652311,
-      606460,
-      1218921,
-      606460,
-      627356,
-      606460,
-      666658,
-      606460,
-      626860
-    ],
-    "unencoded_size": [
-      1,
-      2,
-      1,
-      6,
-      0,
-      1,
-      1,
-      2,
-      1,
-      0
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "11": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 15.64862104187947,
+      "encoded_size": 195201,
+      "encoding_size": 6523,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 15.14192849404117,
+      "encoded_size": 271445,
+      "encoding_size": 6033,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.024007839294464,
+      "encoded_size": 335891,
+      "encoding_size": 6640,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 34.58329262335125,
+      "encoded_size": 85338,
+      "encoding_size": 11664,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.024007839294464,
+      "encoded_size": 341047,
+      "encoding_size": 6640,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.025401762571281,
+      "encoded_size": 330035,
+      "encoding_size": 6276,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 15.024007839294464,
+      "encoded_size": 350177,
+      "encoding_size": 6640,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 15.69620253164557,
+      "encoded_size": 214214,
+      "encoding_size": 6591,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.024007839294464,
+      "encoded_size": 324727,
+      "encoding_size": 6640,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 15.024007839294464,
+      "encoded_size": 310944,
+      "encoding_size": 6640,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
   },
-  {
-    "data_dir": "data/rozklady",
-    "k": 18,
-    "entropy": [
-      4.693955366279032,
-      5.767712431796381,
-      7.6543788986076295,
-      2.0018147001616033,
-      7.649644473403181,
-      6.954612117038315,
-      7.9993194390339015,
-      5.369402051994448,
-      7.287260582396562,
-      6.756722433643157
-    ],
-    "avg_bit_lenght": [
-      28.786400952177495,
-      23.350359363489584,
-      22.023506433560566,
-      61.56826930046427,
-      22.023506433560566,
-      22.693641971538508,
-      22.023506433560566,
-      25.59433440300985,
-      22.023506433560566,
-      22.529341079800567
-    ],
-    "encoded_size": [
-      177757,
-      219499,
-      285008,
-      76365,
-      288012,
-      275027,
-      293070,
-      196650,
-      275677,
-      260546
-    ],
-    "encoding_size": [
-      1533050,
-      1354178,
-      1311476,
-      2607164,
-      1311476,
-      1332554,
-      1311476,
-      1428113,
-      1311476,
-      1328051
-    ],
-    "unencoded_size": [
-      1,
-      2,
-      0,
-      2,
-      1,
-      1,
-      0,
-      0,
-      1,
-      0
-    ],
-    "original_size": [
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159,
-      262159
-    ],
-    "image": [
-      "geometr_09.pgm",
-      "laplace_10.pgm",
-      "geometr_099.pgm",
-      "geometr_05.pgm",
-      "normal_50.pgm",
-      "normal_30.pgm",
-      "uniform.pgm",
-      "normal_10.pgm",
-      "laplace_30.pgm",
-      "laplace_20.pgm"
-    ]
+  "12": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 18.124440019910402,
+      "encoded_size": 193743,
+      "encoding_size": 15130,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 15.613963039014374,
+      "encoded_size": 247178,
+      "encoding_size": 13448,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.527566772849791,
+      "encoded_size": 341460,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 38.20376252137796,
+      "encoded_size": 83186,
+      "encoding_size": 25686,
+      "unencoded_size": 3,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.527566772849791,
+      "encoded_size": 350883,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.529167746953592,
+      "encoded_size": 328827,
+      "encoding_size": 13273,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 15.527566772849791,
+      "encoded_size": 370143,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 15.895127380657927,
+      "encoded_size": 200222,
+      "encoding_size": 14098,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.527566772849791,
+      "encoded_size": 322208,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 15.527566772849791,
+      "encoded_size": 300101,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
+  },
+  "13": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 20.632096338166626,
+      "encoded_size": 190701,
+      "encoding_size": 34213,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 15.831915957978989,
+      "encoded_size": 230216,
+      "encoding_size": 28818,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.779438794265408,
+      "encoded_size": 330048,
+      "encoding_size": 29359,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 41.99291386682957,
+      "encoded_size": 81538,
+      "encoding_size": 56265,
+      "unencoded_size": 4,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.779438794265408,
+      "encoded_size": 342466,
+      "encoding_size": 29359,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.788785516721147,
+      "encoded_size": 303042,
+      "encoding_size": 28624,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 15.779438794265408,
+      "encoded_size": 377829,
+      "encoding_size": 29359,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 19.2091942780291,
+      "encoded_size": 208490,
+      "encoding_size": 32930,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.779438794265408,
+      "encoded_size": 303833,
+      "encoding_size": 29359,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 15.779438794265408,
+      "encoded_size": 277017,
+      "encoding_size": 29359,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
+  },
+  "14": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 22.114055440224693,
+      "encoded_size": 186017,
+      "encoding_size": 73935,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 17.253148925660657,
+      "encoded_size": 230685,
+      "encoding_size": 63272,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.905397953556767,
+      "encoded_size": 303832,
+      "encoding_size": 61011,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 45.53289755024742,
+      "encoded_size": 80171,
+      "encoding_size": 121812,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.905397953556767,
+      "encoded_size": 311878,
+      "encoding_size": 61011,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.912806539509537,
+      "encoded_size": 265558,
+      "encoding_size": 60379,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 15.905397953556767,
+      "encoded_size": 365411,
+      "encoding_size": 61011,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 21.555052882557927,
+      "encoded_size": 211785,
+      "encoding_size": 72697,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.905397953556767,
+      "encoded_size": 277909,
+      "encoding_size": 61011,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 15.905397953556767,
+      "encoded_size": 255880,
+      "encoding_size": 61011,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
+  },
+  "15": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 22.919737444664936,
+      "encoded_size": 182485,
+      "encoding_size": 155258,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 20.26481776905142,
+      "encoded_size": 232673,
+      "encoding_size": 143687,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.968383321589412,
+      "encoded_size": 275845,
+      "encoding_size": 126355,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 49.15730028389145,
+      "encoded_size": 78953,
+      "encoding_size": 262717,
+      "unencoded_size": 6,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.968383321589412,
+      "encoded_size": 273893,
+      "encoding_size": 126355,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.97344479960659,
+      "encoded_size": 248922,
+      "encoding_size": 125969,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 15.968383321589412,
+      "encoded_size": 325986,
+      "encoding_size": 126355,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 22.79705315929447,
+      "encoded_size": 207587,
+      "encoding_size": 154557,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.968383321589412,
+      "encoded_size": 261443,
+      "encoding_size": 126355,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 15.968383321589412,
+      "encoded_size": 250973,
+      "encoding_size": 126355,
+      "unencoded_size": 1,
+      "original_size": 262159
+    }
+  },
+  "16": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 24.92005678609046,
+      "encoded_size": 181226,
+      "encoding_size": 335079,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 21.932105939201175,
+      "encoded_size": 230084,
+      "encoding_size": 310076,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.999877452857646,
+      "encoded_size": 262262,
+      "encoding_size": 261123,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 53.19828441473206,
+      "encoded_size": 77958,
+      "encoding_size": 566708,
+      "unencoded_size": 6,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.999877452857646,
+      "encoded_size": 262228,
+      "encoding_size": 261123,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 18.660215580597747,
+      "encoded_size": 260388,
+      "encoding_size": 282966,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 15.999877452857646,
+      "encoded_size": 262620,
+      "encoding_size": 261123,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 23.3960835788092,
+      "encoded_size": 198928,
+      "encoding_size": 322649,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.999877452857646,
+      "encoded_size": 262210,
+      "encoding_size": 261123,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 18.90608293377859,
+      "encoded_size": 258350,
+      "encoding_size": 284838,
+      "unencoded_size": 1,
+      "original_size": 262159
+    }
+  },
+  "17": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 27.190669913064717,
+      "encoded_size": 179591,
+      "encoding_size": 723717,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 22.836972121286145,
+      "encoded_size": 224732,
+      "encoding_size": 652311,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 20.01565563702116,
+      "encoded_size": 274948,
+      "encoding_size": 606460,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 57.406676586166114,
+      "encoded_size": 77176,
+      "encoding_size": 1218921,
+      "unencoded_size": 6,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 20.01565563702116,
+      "encoded_size": 276301,
+      "encoding_size": 606460,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 21.351632228878834,
+      "encoded_size": 270632,
+      "encoding_size": 627356,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 20.01565563702116,
+      "encoded_size": 277959,
+      "encoding_size": 606460,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 23.700420491922127,
+      "encoded_size": 193596,
+      "encoding_size": 666658,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 20.01565563702116,
+      "encoded_size": 271012,
+      "encoding_size": 606460,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 21.260782324083895,
+      "encoded_size": 262011,
+      "encoding_size": 626860,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
+  },
+  "18": {
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 28.786400952177495,
+      "encoded_size": 177757,
+      "encoding_size": 1533050,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 23.350359363489584,
+      "encoded_size": 219499,
+      "encoding_size": 1354178,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 22.023506433560566,
+      "encoded_size": 285008,
+      "encoding_size": 1311476,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 61.56826930046427,
+      "encoded_size": 76365,
+      "encoding_size": 2607164,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 22.023506433560566,
+      "encoded_size": 288012,
+      "encoding_size": 1311476,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 22.693641971538508,
+      "encoded_size": 275027,
+      "encoding_size": 1332554,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 22.023506433560566,
+      "encoded_size": 293070,
+      "encoding_size": 1311476,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 25.59433440300985,
+      "encoded_size": 196650,
+      "encoding_size": 1428113,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 22.023506433560566,
+      "encoded_size": 275677,
+      "encoding_size": 1311476,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 22.529341079800567,
+      "encoded_size": 260546,
+      "encoding_size": 1328051,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
   }
-]
+}

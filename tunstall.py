@@ -44,7 +44,7 @@ class Tunstall:
             final_tree.update(offspring)
 
         avg_bit_len = self._calculate_avg_bit_length(list(final_tree.keys()))
-        self.stats['avg_bit_lenght'] = avg_bit_len
+        self.stats['avg_bit_length'] = avg_bit_len
 
         return final_tree
 
@@ -73,8 +73,6 @@ class Tunstall:
         for code in encoded_chars:
             encoded_bits += code
 
-        # TODO: unite the unit of size factors (all calculations in bits or
-        #  bytes) MAYBE use os.getsizeof()
         self.stats['encoded_size'] = len(encoded_bits.tobytes())
 
         keystr = b''
