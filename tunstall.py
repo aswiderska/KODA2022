@@ -19,7 +19,7 @@ class Tunstall:
 
     def _construct_tree(self, data: bytes) -> dict:
         hist = self._count_symbols(data)
-        self.stats['histogram'] = hist
+        # self.stats['histogram'] = hist
 
         initial_tree = {
             symbol: count / len(data) for symbol, count in hist.items()
@@ -75,9 +75,20 @@ class Tunstall:
 
         # TODO: unite the unit of size factors (all calculations in bits or
         #  bytes) MAYBE use os.getsizeof()
-        self.stats['encoded_size'] = len(encoded_bits)
-        self.stats['encoding_size'] = len(encoding)
+        self.stats['encoded_size'] = len(encoded_bits.tobytes())
+
+        keystr = b''
+        for key in encoding.keys():
+            keystr += key
+        valbitarr = bitarray()
+        for val in encoding.values():
+            valbitarr += val
+
+        encoding_size = len(keystr) + len(valbitarr.tobytes())
+        self.stats['encoding_size'] = encoding_size
+
         self.stats['unencoded_size'] = len(curr_text)
+        self.stats['original_size'] = len(data)
 
         return encoding, encoded_bits, curr_text
 
@@ -98,5 +109,8 @@ class Tunstall:
         return ent
 
     def _calculate_avg_bit_length(self, codewords: list) -> float:
-        lengths = [len(word) for word in codewords]
+        lengths = [len(word) * 8 for word in codewords]
         return sum(lengths) / len(codewords)
+
+    def get_result(self) -> dict:
+        return self.stats
