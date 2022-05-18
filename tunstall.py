@@ -1,6 +1,8 @@
 from math import log
+from pathlib import PosixPath
 
 from bitarray import bitarray, decodetree
+import cv2
 
 
 class Tunstall:
@@ -9,16 +11,27 @@ class Tunstall:
         self.dictionary_size = 2 ** k - 1
         self.stats = {}
 
-    def _count_symbols(self, data: bytes) -> dict:
+    def _count_symbols(self, data: bytes, image_path: PosixPath) -> dict:
         hist = {}
         get = hist.get
         for i in data:
             b = i.to_bytes(1, 'big')
             hist[b] = get(b, 0) + 1
+
+        import matplotlib.pyplot as plt
+        img = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
+        cv2.imshow('Cat', img)
+
+        dst = cv2.calcHist(img, [0], None, [256], [0, 256])
+
+        plt.hist(img.ravel(), 256, [0, 256])
+        plt.title(f'Histogram for gray scale image {image_path}')
+        plt.savefig('plots/' + image_path.stem + '_histogram.jpg')
+        plt.close()
         return hist
 
-    def _construct_tree(self, data: bytes) -> dict:
-        hist = self._count_symbols(data)
+    def _construct_tree(self, data: bytes, image_path: PosixPath) -> dict:
+        hist = self._count_symbols(data, image_path)
         # self.stats['histogram'] = hist
 
         initial_tree = {

@@ -64,11 +64,11 @@ class Simulation:
         processing_results = {}
 
         for image in data_dir.iterdir():
-            info(f'Running processing for {image.name}')
+            info(f'Running processing for {image}')
             tun = Tunstall(k=k)
 
             content = image.read_bytes()
-            _ = tun.encode(content)
+            _ = tun._count_symbols(content,image)
             result = tun.get_result()
 
             processing_results[image.name] = result

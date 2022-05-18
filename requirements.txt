@@ -1,3 +1,4 @@
 bitarray
 numpy
 matplotlib
+opencv-python
