@@ -33,8 +33,6 @@ def compare():
             _, im_buf_arr = cv.imencode(ext, img)
             results[ext].append(len(im_buf_arr.tobytes()))
 
-
-
     results_path = 'results/results_obrazy.json'
     results_file = Path(results_path)
     results2 = loads(results_file.read_bytes())
@@ -74,7 +72,7 @@ def compare():
     file_exts.append('.pgm')
     file_exts.append('Tunstall')
     colors = ['y', 'b', 'g', 'c', 'k', 'm']
-    plt.figure(1, figsize=(14,8))
+    plt.figure(1, figsize=(14, 8))
     separation = 0.1  # separation between groups of bars
     spacing = 0.01  # separation between single bars
     width = (1 - separation) / (len(file_exts) + 1)
@@ -94,7 +92,7 @@ def compare():
     plt.xlabel('image')
     plt.ylabel('size [bytes]')
     plt.legend(file_exts)
-    plt.savefig('plots/comparison_obr.svg')
+    plt.savefig('plots/comparison_obrazy_k_13.svg')
 
     print('xd')
 
