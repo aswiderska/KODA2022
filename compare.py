@@ -1,6 +1,6 @@
 from json import loads
 from pathlib import Path
-from zipfile import ZipFile
+from zipfile import ZipFile, ZIP_DEFLATED
 
 import cv2 as cv
 import numpy as np
@@ -22,7 +22,7 @@ def compare():
     results['.zip'] = []
     results['order'] = [file.stem for file in files]
     for file in files:
-        with ZipFile(file.with_suffix('.zip'), 'w') as zipp:
+        with ZipFile(file.with_suffix('.zip'), 'w', ZIP_DEFLATED) as zipp:
             zipp.write(file)
 
         img = cv.imread(str(file.resolve()), cv.IMREAD_GRAYSCALE)
