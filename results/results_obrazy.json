@@ -1,308 +1,9 @@
 {
-  "2": {
-    "boat.pgm": {
-      "entropy": 7.191614036664514,
-      "avg_bit_length": 8.0,
-      "encoded_size": 1,
-      "encoding_size": 4,
-      "unencoded_size": 262179,
-      "original_size": 262182
-    },
-    "mandril.pgm": {
-      "entropy": 7.292764346850595,
-      "avg_bit_length": 8.0,
-      "encoded_size": 1,
-      "encoding_size": 4,
-      "unencoded_size": 262179,
-      "original_size": 262182
-    },
-    "chronometer.pgm": {
-      "entropy": 6.1140627573000605,
-      "avg_bit_length": 8.0,
-      "encoded_size": 1,
-      "encoding_size": 4,
-      "unencoded_size": 262179,
-      "original_size": 262182
-    },
-    "barbara.pgm": {
-      "entropy": 7.632238258615477,
-      "avg_bit_length": 8.0,
-      "encoded_size": 1,
-      "encoding_size": 4,
-      "unencoded_size": 262179,
-      "original_size": 262182
-    },
-    "lena.pgm": {
-      "entropy": 7.445255132179636,
-      "avg_bit_length": 8.0,
-      "encoded_size": 1,
-      "encoding_size": 4,
-      "unencoded_size": 262179,
-      "original_size": 262182
-    },
-    "peppers.pgm": {
-      "entropy": 6.762917070562701,
-      "avg_bit_length": 8.0,
-      "encoded_size": 1,
-      "encoding_size": 4,
-      "unencoded_size": 262179,
-      "original_size": 262182
-    }
-  },
-  "3": {
-    "boat.pgm": {
-      "entropy": 7.191614036664514,
-      "avg_bit_length": 8.0,
-      "encoded_size": 3,
-      "encoding_size": 10,
-      "unencoded_size": 262175,
-      "original_size": 262182
-    },
-    "mandril.pgm": {
-      "entropy": 7.292764346850595,
-      "avg_bit_length": 8.0,
-      "encoded_size": 3,
-      "encoding_size": 10,
-      "unencoded_size": 262175,
-      "original_size": 262182
-    },
-    "chronometer.pgm": {
-      "entropy": 6.1140627573000605,
-      "avg_bit_length": 8.0,
-      "encoded_size": 3,
-      "encoding_size": 10,
-      "unencoded_size": 262175,
-      "original_size": 262182
-    },
-    "barbara.pgm": {
-      "entropy": 7.632238258615477,
-      "avg_bit_length": 8.0,
-      "encoded_size": 3,
-      "encoding_size": 10,
-      "unencoded_size": 262175,
-      "original_size": 262182
-    },
-    "lena.pgm": {
-      "entropy": 7.445255132179636,
-      "avg_bit_length": 8.0,
-      "encoded_size": 3,
-      "encoding_size": 10,
-      "unencoded_size": 262175,
-      "original_size": 262182
-    },
-    "peppers.pgm": {
-      "entropy": 6.762917070562701,
-      "avg_bit_length": 8.0,
-      "encoded_size": 3,
-      "encoding_size": 10,
-      "unencoded_size": 262175,
-      "original_size": 262182
-    }
-  },
-  "4": {
-    "boat.pgm": {
-      "entropy": 7.191614036664514,
-      "avg_bit_length": 8.0,
-      "encoded_size": 10,
-      "encoding_size": 23,
-      "unencoded_size": 262162,
-      "original_size": 262182
-    },
-    "mandril.pgm": {
-      "entropy": 7.292764346850595,
-      "avg_bit_length": 8.0,
-      "encoded_size": 10,
-      "encoding_size": 23,
-      "unencoded_size": 262162,
-      "original_size": 262182
-    },
-    "chronometer.pgm": {
-      "entropy": 6.1140627573000605,
-      "avg_bit_length": 8.0,
-      "encoded_size": 10,
-      "encoding_size": 23,
-      "unencoded_size": 262162,
-      "original_size": 262182
-    },
-    "barbara.pgm": {
-      "entropy": 7.632238258615477,
-      "avg_bit_length": 8.0,
-      "encoded_size": 10,
-      "encoding_size": 23,
-      "unencoded_size": 262162,
-      "original_size": 262182
-    },
-    "lena.pgm": {
-      "entropy": 7.445255132179636,
-      "avg_bit_length": 8.0,
-      "encoded_size": 10,
-      "encoding_size": 23,
-      "unencoded_size": 262162,
-      "original_size": 262182
-    },
-    "peppers.pgm": {
-      "entropy": 6.762917070562701,
-      "avg_bit_length": 8.0,
-      "encoded_size": 10,
-      "encoding_size": 23,
-      "unencoded_size": 262162,
-      "original_size": 262182
-    }
-  },
-  "5": {
-    "boat.pgm": {
-      "entropy": 7.191614036664514,
-      "avg_bit_length": 8.0,
-      "encoded_size": 42,
-      "encoding_size": 51,
-      "unencoded_size": 262116,
-      "original_size": 262182
-    },
-    "mandril.pgm": {
-      "entropy": 7.292764346850595,
-      "avg_bit_length": 8.0,
-      "encoded_size": 33,
-      "encoding_size": 51,
-      "unencoded_size": 262130,
-      "original_size": 262182
-    },
-    "chronometer.pgm": {
-      "entropy": 6.1140627573000605,
-      "avg_bit_length": 8.0,
-      "encoded_size": 173,
-      "encoding_size": 51,
-      "unencoded_size": 261906,
-      "original_size": 262182
-    },
-    "barbara.pgm": {
-      "entropy": 7.632238258615477,
-      "avg_bit_length": 8.0,
-      "encoded_size": 31,
-      "encoding_size": 51,
-      "unencoded_size": 262133,
-      "original_size": 262182
-    },
-    "lena.pgm": {
-      "entropy": 7.445255132179636,
-      "avg_bit_length": 8.0,
-      "encoded_size": 45,
-      "encoding_size": 51,
-      "unencoded_size": 262111,
-      "original_size": 262182
-    },
-    "peppers.pgm": {
-      "entropy": 6.762917070562701,
-      "avg_bit_length": 8.0,
-      "encoded_size": 81,
-      "encoding_size": 51,
-      "unencoded_size": 262053,
-      "original_size": 262182
-    }
-  },
-  "6": {
-    "boat.pgm": {
-      "entropy": 7.191614036664514,
-      "avg_bit_length": 8.0,
-      "encoded_size": 281,
-      "encoding_size": 111,
-      "unencoded_size": 261808,
-      "original_size": 262182
-    },
-    "mandril.pgm": {
-      "entropy": 7.292764346850595,
-      "avg_bit_length": 8.0,
-      "encoded_size": 77,
-      "encoding_size": 111,
-      "unencoded_size": 262080,
-      "original_size": 262182
-    },
-    "chronometer.pgm": {
-      "entropy": 6.1140627573000605,
-      "avg_bit_length": 8.0,
-      "encoded_size": 237,
-      "encoding_size": 111,
-      "unencoded_size": 261866,
-      "original_size": 262182
-    },
-    "barbara.pgm": {
-      "entropy": 7.632238258615477,
-      "avg_bit_length": 8.0,
-      "encoded_size": 67,
-      "encoding_size": 111,
-      "unencoded_size": 262093,
-      "original_size": 262182
-    },
-    "lena.pgm": {
-      "entropy": 7.445255132179636,
-      "avg_bit_length": 8.0,
-      "encoded_size": 123,
-      "encoding_size": 111,
-      "unencoded_size": 262019,
-      "original_size": 262182
-    },
-    "peppers.pgm": {
-      "entropy": 6.762917070562701,
-      "avg_bit_length": 8.0,
-      "encoded_size": 275,
-      "encoding_size": 111,
-      "unencoded_size": 261816,
-      "original_size": 262182
-    }
-  },
-  "7": {
-    "boat.pgm": {
-      "entropy": 7.191614036664514,
-      "avg_bit_length": 8.0,
-      "encoded_size": 4741,
-      "encoding_size": 239,
-      "unencoded_size": 256764,
-      "original_size": 262182
-    },
-    "mandril.pgm": {
-      "entropy": 7.292764346850595,
-      "avg_bit_length": 8.0,
-      "encoded_size": 228,
-      "encoding_size": 239,
-      "unencoded_size": 261922,
-      "original_size": 262182
-    },
-    "chronometer.pgm": {
-      "entropy": 6.1140627573000605,
-      "avg_bit_length": 8.0,
-      "encoded_size": 1613,
-      "encoding_size": 239,
-      "unencoded_size": 260339,
-      "original_size": 262182
-    },
-    "barbara.pgm": {
-      "entropy": 7.632238258615477,
-      "avg_bit_length": 8.0,
-      "encoded_size": 291,
-      "encoding_size": 239,
-      "unencoded_size": 261850,
-      "original_size": 262182
-    },
-    "lena.pgm": {
-      "entropy": 7.445255132179636,
-      "avg_bit_length": 8.0,
-      "encoded_size": 3169,
-      "encoding_size": 239,
-      "unencoded_size": 258561,
-      "original_size": 262182
-    },
-    "peppers.pgm": {
-      "entropy": 6.762917070562701,
-      "avg_bit_length": 8.0,
-      "encoded_size": 7535,
-      "encoding_size": 239,
-      "unencoded_size": 253571,
-      "original_size": 262182
-    }
-  },
   "8": {
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 8.0,
+      "bitrate": 1.0,
       "encoded_size": 262182,
       "encoding_size": 510,
       "unencoded_size": 0,
@@ -311,6 +12,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 8.0,
+      "bitrate": 1.0,
       "encoded_size": 262182,
       "encoding_size": 448,
       "unencoded_size": 0,
@@ -319,6 +21,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 8.0,
+      "bitrate": 1.0,
       "encoded_size": 122151,
       "encoding_size": 510,
       "unencoded_size": 140031,
@@ -327,6 +30,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 8.0,
+      "bitrate": 1.0,
       "encoded_size": 262182,
       "encoding_size": 470,
       "unencoded_size": 0,
@@ -335,6 +39,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 8.0,
+      "bitrate": 1.0,
       "encoded_size": 262182,
       "encoding_size": 432,
       "unencoded_size": 0,
@@ -343,6 +48,7 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 8.0,
+      "bitrate": 1.0,
       "encoded_size": 262182,
       "encoding_size": 306,
       "unencoded_size": 0,
@@ -353,6 +59,7 @@
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 12.00785854616896,
+      "bitrate": 1.1017947456347117,
       "encoded_size": 288871,
       "encoding_size": 1337,
       "unencoded_size": 0,
@@ -361,6 +68,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 12.008948545861298,
+      "bitrate": 1.1131098816852416,
       "encoded_size": 291838,
       "encoding_size": 1174,
       "unencoded_size": 0,
@@ -369,6 +77,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 12.007827788649706,
+      "bitrate": 1.0522475799253954,
       "encoded_size": 275881,
       "encoding_size": 1342,
       "unencoded_size": 0,
@@ -377,6 +86,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 12.008528784648188,
+      "bitrate": 1.11637526603657,
       "encoded_size": 292694,
       "encoding_size": 1232,
       "unencoded_size": 0,
@@ -385,6 +95,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 12.009280742459397,
+      "bitrate": 1.1143070462503146,
       "encoded_size": 292152,
       "encoding_size": 1132,
       "unencoded_size": 0,
@@ -393,6 +104,7 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 13.356673960612692,
+      "bitrate": 1.0741140696157632,
       "encoded_size": 281614,
       "encoding_size": 1278,
       "unencoded_size": 0,
@@ -403,6 +115,7 @@
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 14.017699115044248,
+      "bitrate": 1.180663622979457,
       "encoded_size": 309549,
       "encoding_size": 3054,
       "unencoded_size": 0,
@@ -411,6 +124,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 14.020156774916014,
+      "bitrate": 1.2142376288227261,
       "encoded_size": 318352,
       "encoding_size": 2682,
       "unencoded_size": 0,
@@ -419,6 +133,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 14.017629774730656,
+      "bitrate": 1.0979395992097092,
       "encoded_size": 287860,
       "encoding_size": 3066,
       "unencoded_size": 0,
@@ -427,6 +142,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 14.019210245464247,
+      "bitrate": 1.223134120572732,
       "encoded_size": 320684,
       "encoding_size": 2814,
       "unencoded_size": 0,
@@ -435,6 +151,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 14.020905923344948,
+      "bitrate": 1.2199636130626816,
       "encoded_size": 319853,
       "encoding_size": 2586,
       "unencoded_size": 0,
@@ -443,6 +160,7 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 14.70317634173056,
+      "bitrate": 1.1426509066221175,
       "encoded_size": 299583,
       "encoding_size": 2820,
       "unencoded_size": 0,
@@ -453,6 +171,7 @@
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 15.024102311854403,
+      "bitrate": 1.2311500217406228,
       "encoded_size": 322786,
       "encoding_size": 6614,
       "unencoded_size": 0,
@@ -461,6 +180,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 15.139442231075698,
+      "bitrate": 1.2855559306130855,
       "encoded_size": 337050,
       "encoding_size": 6561,
       "unencoded_size": 0,
@@ -469,6 +189,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 15.024007839294464,
+      "bitrate": 1.10790023723978,
       "encoded_size": 290472,
       "encoding_size": 6640,
       "unencoded_size": 0,
@@ -477,6 +198,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 15.026161238654565,
+      "bitrate": 1.3177778222761287,
       "encoded_size": 345498,
       "encoding_size": 6094,
       "unencoded_size": 0,
@@ -485,6 +207,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 15.140495867768594,
+      "bitrate": 1.2943036707325446,
       "encoded_size": 339344,
       "encoding_size": 6326,
       "unencoded_size": 0,
@@ -493,6 +216,7 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 15.429438543247345,
+      "bitrate": 1.1516179600430236,
       "encoded_size": 301934,
       "encoding_size": 6532,
       "unencoded_size": 0,
@@ -503,6 +227,7 @@
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 15.527675276752767,
+      "bitrate": 1.2369155777284482,
       "encoded_size": 324297,
       "encoding_size": 13988,
       "unencoded_size": 0,
@@ -511,6 +236,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 15.587546699875467,
+      "bitrate": 1.3241011968785041,
       "encoded_size": 347156,
       "encoding_size": 13846,
       "unencoded_size": 0,
@@ -519,6 +245,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 15.527566772849791,
+      "bitrate": 1.0553928187289745,
       "encoded_size": 276705,
       "encoding_size": 14043,
       "unencoded_size": 0,
@@ -527,6 +254,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 15.55968836391053,
+      "bitrate": 1.365007895278852,
       "encoded_size": 357881,
       "encoding_size": 13708,
       "unencoded_size": 0,
@@ -535,6 +263,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 15.612334801762115,
+      "bitrate": 1.335371993500698,
       "encoded_size": 350111,
       "encoding_size": 14103,
       "unencoded_size": 0,
@@ -543,6 +272,7 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 15.740956235770302,
+      "bitrate": 1.106351694624345,
       "encoded_size": 290066,
       "encoding_size": 13708,
       "unencoded_size": 0,
@@ -553,6 +283,7 @@
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 15.779554680772543,
+      "bitrate": 1.1985476691763737,
       "encoded_size": 314238,
       "encoding_size": 29244,
       "unencoded_size": 0,
@@ -561,6 +292,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 15.811682650392328,
+      "bitrate": 1.2925215117742637,
       "encoded_size": 338876,
       "encoding_size": 28917,
       "unencoded_size": 0,
@@ -569,6 +301,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 16.52934689376302,
+      "bitrate": 0.9945100159431235,
       "encoded_size": 260743,
       "encoding_size": 30124,
       "unencoded_size": 0,
@@ -577,6 +310,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 15.803686973507508,
+      "bitrate": 1.356044656002319,
       "encoded_size": 355531,
       "encoding_size": 29492,
       "unencoded_size": 0,
@@ -585,6 +319,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 15.824746053114675,
+      "bitrate": 1.309987432394291,
       "encoded_size": 343456,
       "encoding_size": 29441,
       "unencoded_size": 0,
@@ -593,6 +328,7 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 15.899714533945637,
+      "bitrate": 1.013566486511227,
       "encoded_size": 265738,
       "encoding_size": 29106,
       "unencoded_size": 1,
@@ -603,6 +339,7 @@
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 15.905517623177708,
+      "bitrate": 1.128406984461176,
       "encoded_size": 295848,
       "encoding_size": 60772,
       "unencoded_size": 0,
@@ -611,6 +348,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 15.925307125307125,
+      "bitrate": 1.1703911786468941,
       "encoded_size": 306856,
       "encoding_size": 60898,
       "unencoded_size": 0,
@@ -619,6 +357,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 18.28025243551253,
+      "bitrate": 1.0107511194513734,
       "encoded_size": 265001,
       "encoding_size": 65856,
       "unencoded_size": 0,
@@ -627,6 +366,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 15.918930468225383,
+      "bitrate": 1.2705974117117564,
       "encoded_size": 333127,
       "encoding_size": 61263,
       "unencoded_size": 1,
@@ -635,6 +375,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 15.930971176794566,
+      "bitrate": 1.192711551517648,
       "encoded_size": 312708,
       "encoding_size": 61138,
       "unencoded_size": 0,
@@ -643,6 +384,7 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 15.976882877343991,
+      "bitrate": 0.9129561257299347,
       "encoded_size": 239360,
       "encoding_size": 60947,
       "unencoded_size": 1,
@@ -653,6 +395,7 @@
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 15.968993194372388,
+      "bitrate": 1.0442006888344737,
       "encoded_size": 273771,
       "encoding_size": 126846,
       "unencoded_size": 0,
@@ -661,6 +404,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 15.98058908443134,
+      "bitrate": 0.9766082401089323,
       "encoded_size": 256049,
       "encoding_size": 126088,
       "unencoded_size": 1,
@@ -669,6 +413,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 18.468306730798687,
+      "bitrate": 0.9725355671675948,
       "encoded_size": 254980,
       "encoding_size": 136555,
       "unencoded_size": 2,
@@ -677,6 +422,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 15.976557492140044,
+      "bitrate": 1.0865519944160926,
       "encoded_size": 284875,
       "encoding_size": 126853,
       "unencoded_size": 0,
@@ -685,6 +431,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 15.984088614179493,
+      "bitrate": 1.0027719294230726,
       "encoded_size": 262909,
       "encoding_size": 126574,
       "unencoded_size": 0,
@@ -693,6 +440,7 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 18.619503687157675,
+      "bitrate": 0.9157914761176439,
       "encoded_size": 240104,
       "encoding_size": 137340,
       "unencoded_size": 1,
@@ -703,6 +451,7 @@
     "boat.pgm": {
       "entropy": 7.191614036664514,
       "avg_bit_length": 17.085498908946636,
+      "bitrate": 0.9825769885041689,
       "encoded_size": 257614,
       "encoding_size": 271024,
       "unencoded_size": 0,
@@ -711,6 +460,7 @@
     "mandril.pgm": {
       "entropy": 7.292764346850595,
       "avg_bit_length": 18.602142638506276,
+      "bitrate": 0.9823671433093931,
       "encoded_size": 257558,
       "encoding_size": 282613,
       "unencoded_size": 1,
@@ -719,6 +469,7 @@
     "chronometer.pgm": {
       "entropy": 6.1140627573000605,
       "avg_bit_length": 19.843568572785344,
+      "bitrate": 0.9054126729244301,
       "encoded_size": 237382,
       "encoding_size": 292488,
       "unencoded_size": 1,
@@ -727,6 +478,7 @@
     "barbara.pgm": {
       "entropy": 7.632238258615477,
       "avg_bit_length": 17.576776911219305,
+      "bitrate": 0.9943054607313269,
       "encoded_size": 260688,
       "encoding_size": 274998,
       "unencoded_size": 1,
@@ -735,6 +487,7 @@
     "lena.pgm": {
       "entropy": 7.445255132179636,
       "avg_bit_length": 18.69481801074035,
+      "bitrate": 0.9848731034167105,
       "encoded_size": 258216,
       "encoding_size": 283461,
       "unencoded_size": 0,
@@ -743,108 +496,9 @@
     "peppers.pgm": {
       "entropy": 6.762917070562701,
       "avg_bit_length": 21.30520660021675,
+      "bitrate": 0.9350908910604084,
       "encoded_size": 245164,
       "encoding_size": 305497,
-      "unencoded_size": 0,
-      "original_size": 262182
-    }
-  },
-  "17": {
-    "boat.pgm": {
-      "entropy": 7.191614036664514,
-      "avg_bit_length": 20.527463472322893,
-      "encoded_size": 257242,
-      "encoding_size": 614818,
-      "unencoded_size": 1,
-      "original_size": 262182
-    },
-    "mandril.pgm": {
-      "entropy": 7.292764346850595,
-      "avg_bit_length": 21.296359108340592,
-      "encoded_size": 266556,
-      "encoding_size": 626634,
-      "unencoded_size": 0,
-      "original_size": 262182
-    },
-    "chronometer.pgm": {
-      "entropy": 6.1140627573000605,
-      "avg_bit_length": 21.556499912261295,
-      "encoded_size": 227868,
-      "encoding_size": 631705,
-      "unencoded_size": 2,
-      "original_size": 262182
-    },
-    "barbara.pgm": {
-      "entropy": 7.632238258615477,
-      "avg_bit_length": 20.80545783380774,
-      "encoded_size": 272782,
-      "encoding_size": 619259,
-      "unencoded_size": 1,
-      "original_size": 262182
-    },
-    "lena.pgm": {
-      "entropy": 7.445255132179636,
-      "avg_bit_length": 21.35724323333537,
-      "encoded_size": 267606,
-      "encoding_size": 627793,
-      "unencoded_size": 0,
-      "original_size": 262182
-    },
-    "peppers.pgm": {
-      "entropy": 6.762917070562701,
-      "avg_bit_length": 22.67890860522801,
-      "encoded_size": 253432,
-      "encoding_size": 649867,
-      "unencoded_size": 0,
-      "original_size": 262182
-    }
-  },
-  "18": {
-    "boat.pgm": {
-      "entropy": 7.191614036664514,
-      "avg_bit_length": 22.256217358628767,
-      "encoded_size": 258575,
-      "encoding_size": 1319041,
-      "unencoded_size": 0,
-      "original_size": 262182
-    },
-    "mandril.pgm": {
-      "entropy": 7.292764346850595,
-      "avg_bit_length": 22.660468808438857,
-      "encoded_size": 275529,
-      "encoding_size": 1331763,
-      "unencoded_size": 1,
-      "original_size": 262182
-    },
-    "chronometer.pgm": {
-      "entropy": 6.1140627573000605,
-      "avg_bit_length": 22.879534296428258,
-      "encoded_size": 225858,
-      "encoding_size": 1339526,
-      "unencoded_size": 0,
-      "original_size": 262182
-    },
-    "barbara.pgm": {
-      "entropy": 7.632238258615477,
-      "avg_bit_length": 22.419816774203394,
-      "encoded_size": 283674,
-      "encoding_size": 1324159,
-      "unencoded_size": 1,
-      "original_size": 262182
-    },
-    "lena.pgm": {
-      "entropy": 7.445255132179636,
-      "avg_bit_length": 22.69175766733057,
-      "encoded_size": 273886,
-      "encoding_size": 1333093,
-      "unencoded_size": 1,
-      "original_size": 262182
-    },
-    "peppers.pgm": {
-      "entropy": 6.762917070562701,
-      "avg_bit_length": 23.36576747096917,
-      "encoded_size": 255159,
-      "encoding_size": 1354983,
       "unencoded_size": 0,
       "original_size": 262182
     }

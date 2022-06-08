@@ -68,7 +68,7 @@ class Simulation:
             tun = Tunstall(k=k)
 
             content = image.read_bytes()
-            _ = tun._count_symbols(content,image)
+            _ = tun.encode(content)
             result = tun.get_result()
 
             processing_results[image.name] = result

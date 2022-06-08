@@ -11,7 +11,7 @@ class Tunstall:
         self.dictionary_size = 2 ** k - 1
         self.stats = {}
 
-    def _count_symbols(self, data: bytes, image_path: PosixPath) -> dict:
+    def _count_symbols(self, data: bytes, image_path: PosixPath = None) -> dict:
         hist = {}
         get = hist.get
         for i in data:
@@ -30,7 +30,7 @@ class Tunstall:
         plt.close()
         return hist
 
-    def _construct_tree(self, data: bytes, image_path: PosixPath) -> dict:
+    def _construct_tree(self, data: bytes, image_path: PosixPath = None) -> dict:
         hist = self._count_symbols(data, image_path)
         # self.stats['histogram'] = hist
 
@@ -74,13 +74,19 @@ class Tunstall:
         encoding = self._create_encoding(list(probability_tree.keys()))
 
         encoded_chars = []
+        encoded_symbol_lens = []
         curr_text = b''
 
         for i in data:
             curr_text += i.to_bytes(1, 'big')
             if curr_text in encoding:
+                encoded_symbol_lens.append(len(curr_text) * 8)
                 encoded_chars.append(encoding[curr_text])
                 curr_text = b''
+
+        raw_bits_len = sum(encoded_symbol_lens)
+        encoded_bits_len = len(encoded_chars) * self.k
+        self.stats['bitrate'] = encoded_bits_len / raw_bits_len
 
         encoded_bits = bitarray()
         for code in encoded_chars:

@@ -39,18 +39,22 @@ def main():
         sizes_by_name['encoded_size'][img_name] = [results[k][img_name]['encoded_size'] for k in k_vals]
         sizes_by_name['unencoded_size'][img_name] = [results[k][img_name]['unencoded_size'] for k in k_vals]
 
-    # avg_bit_length plot
+    # avg_bit_length, entropy and bitrate plot
     plt.figure(1)
     for img in img_names:
         img_avg_bit_length = []
+        img_entropy = []
+        img_bitrate = []
         for k in k_vals:
             img_avg_bit_length.append(results[k][img]['avg_bit_length'])
-        plt.plot(k_vals, img_avg_bit_length, label=img)
-    plt.title('Average bit length of symbols to be encoded, for different code lengths')
-    plt.xlabel('code length')
-    plt.ylabel('avg. symbol bit length')
+            img_entropy.append(results[k][img]['entropy'])
+            img_bitrate.append(results[k][img]['bitrate'])
+        # plt.plot(k_vals, img_avg_bit_length, label=img, linestyle='dashed')
+        # plt.plot(k_vals, img_entropy, label=img, linestyle='dotted')
+        plt.plot(k_vals, img_bitrate, label=img)
+    plt.title('Average bit length, bitrate and entropy, for different code lengths')
     plt.legend()
-    plt.savefig(f'plots/avg_bit_length_{results_file.stem}.svg')
+    plt.savefig(f'plots/abl_br_ent_{results_file.stem}.svg')
 
     # encoding_size plot
     plt.figure(2)
@@ -101,7 +105,7 @@ def main():
         plt.figtext(0.05, 0.05, f"Each bar represents different image in order:\n  {images_str}", size='small')
         plt.savefig(f'plots/compression_{results_file.stem}_{part}.svg')
 
-    # avg_bit_len vs entropy plot
+    # bitrate vs entropy plot
     plt.figure(6, figsize=(16, 10))
     separation = 0.1  # separation between groups of bars
     spacing = 0.01  # separation between single bars
@@ -109,19 +113,19 @@ def main():
     shift = width * (len(img_names)) / 2
     x_axis = np.arange(len(k_vals))
     for i, img_name in enumerate(img_names):
-        y1 = np.array([results[k][img_name]['avg_bit_length'] for k in k_vals])
-        y2 = np.array([results[k][img_name]['entropy'] for k in k_vals])
-        plt.bar(x_axis + i * width - shift, y1, width=width - spacing, color='g')
-        plt.bar(x_axis + i * width - shift, y2, width=width - spacing, color='y')
-    plt.title(f'Entropy vs Avg. bit length')
+        y1 = np.array([results[k][img_name]['entropy'] for k in k_vals])
+        y2 = np.array([results[k][img_name]['bitrate'] for k in k_vals])
+        plt.bar(x_axis + i * width - shift, y1, width=width - spacing, color='y')
+        plt.bar(x_axis + i * width - shift, y2, width=width - spacing, color='g')
+    plt.plot(x_axis, [1] * len(x_axis))
+    plt.title(f'Entropy vs Bitrate')
     images_str = ', '.join(img_names)
     plt.xticks([r for r in range(len(k_vals))],
                k_vals)
     plt.xlabel('code length [bits]')
-    plt.ylabel('value [bits]')
-    plt.legend(["Avg. bit length", "Entropy"])
+    plt.legend(["Entropy", "Bitrate"])
     plt.figtext(0.05, 0.05, f"Each bar represents different image in order:\n  {images_str}", size='small')
-    plt.savefig(f'plots/ent_vs_bit_len_{results_file.stem}.svg')
+    plt.savefig(f'plots/ent_vs_bitrate_{results_file.stem}.svg')
 
 
 if __name__ == '__main__':
