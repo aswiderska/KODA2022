@@ -40,21 +40,15 @@ def main():
         sizes_by_name['unencoded_size'][img_name] = [results[k][img_name]['unencoded_size'] for k in k_vals]
 
     # avg_bit_length, entropy and bitrate plot
-    plt.figure(1)
+    plt.figure(1, tight_layout=True)
     for img in img_names:
-        img_avg_bit_length = []
-        img_entropy = []
         img_bitrate = []
         for k in k_vals:
-            img_avg_bit_length.append(results[k][img]['avg_bit_length'])
-            img_entropy.append(results[k][img]['entropy'])
             img_bitrate.append(results[k][img]['bitrate'])
-        # plt.plot(k_vals, img_avg_bit_length, label=img, linestyle='dashed')
-        # plt.plot(k_vals, img_entropy, label=img, linestyle='dotted')
         plt.plot(k_vals, img_bitrate, label=img)
-    plt.title('Average bit length, bitrate and entropy, for different code lengths')
+    plt.title('Bitrate for different code lengths')
     plt.legend()
-    plt.savefig(f'plots/abl_br_ent_{results_file.stem}.svg')
+    plt.savefig(f'plots/br_{results_file.stem}.svg')
 
     # encoding_size plot
     plt.figure(2)

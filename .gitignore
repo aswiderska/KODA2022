@@ -1,4 +1,5 @@
 .idea/
 .venv/
+venv/
 tunstall.log
 .python-version
