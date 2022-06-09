@@ -115,15 +115,15 @@ def main():
     for i, img_name in enumerate(img_names):
         y1 = np.array([results[k][img_name]['entropy'] for k in k_vals])
         y2 = np.array([results[k][img_name]['bitrate'] for k in k_vals])
-        plt.bar(x_axis + i * width - shift, y1, width=width - spacing, color='y')
         plt.bar(x_axis + i * width - shift, y2, width=width - spacing, color='g')
-    plt.plot(x_axis, [1] * len(x_axis))
+        plt.bar(x_axis + i * width - shift, y1, width=width - spacing, color='y')
+    # plt.plot(x_axis, [1] * len(x_axis))
     plt.title(f'Entropy vs Bitrate')
     images_str = ', '.join(img_names)
     plt.xticks([r for r in range(len(k_vals))],
                k_vals)
     plt.xlabel('code length [bits]')
-    plt.legend(["Entropy", "Bitrate"])
+    plt.legend(["Bitrate", "Entropy"])
     plt.figtext(0.05, 0.05, f"Each bar represents different image in order:\n  {images_str}", size='small')
     plt.savefig(f'plots/ent_vs_bitrate_{results_file.stem}.svg')
 

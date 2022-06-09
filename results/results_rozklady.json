@@ -1,9 +1,54 @@
 {
   "8": {
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 8.0,
+      "bitrate": 8.0,
+      "encoded_size": 6926,
+      "encoding_size": 510,
+      "unencoded_size": 255233,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 8.0,
+      "bitrate": 8.0,
+      "encoded_size": 4028,
+      "encoding_size": 510,
+      "unencoded_size": 258131,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 8.0,
+      "bitrate": 8.0,
+      "encoded_size": 67958,
+      "encoding_size": 510,
+      "unencoded_size": 194201,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 22.814814814814813,
+      "bitrate": 2.9769528299727646,
+      "encoded_size": 97554,
+      "encoding_size": 936,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 8.0,
+      "bitrate": 8.0,
+      "encoded_size": 262159,
+      "encoding_size": 484,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 12.019323671497585,
-      "bitrate": 0.9089442244753164,
+      "bitrate": 7.271553795802531,
       "encoded_size": 238287,
       "encoding_size": 518,
       "unencoded_size": 1,
@@ -12,90 +57,90 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 8.0,
-      "bitrate": 1.0,
+      "bitrate": 8.0,
       "encoded_size": 262159,
       "encoding_size": 412,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
-      "avg_bit_length": 8.0,
-      "bitrate": 1.0,
-      "encoded_size": 4028,
-      "encoding_size": 510,
-      "unencoded_size": 258131,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 22.814814814814813,
-      "bitrate": 0.37211910374659557,
-      "encoded_size": 97554,
-      "encoding_size": 936,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "normal_50.pgm": {
-      "entropy": 7.649644473403181,
-      "avg_bit_length": 8.0,
-      "bitrate": 1.0,
-      "encoded_size": 11216,
-      "encoding_size": 510,
-      "unencoded_size": 250943,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 8.0,
-      "bitrate": 1.0,
-      "encoded_size": 262159,
-      "encoding_size": 484,
       "unencoded_size": 0,
       "original_size": 262159
     },
     "uniform.pgm": {
       "entropy": 7.9993194390339015,
       "avg_bit_length": 8.0,
-      "bitrate": 1.0,
+      "bitrate": 8.0,
       "encoded_size": 1503,
       "encoding_size": 510,
       "unencoded_size": 260656,
       "original_size": 262159
     },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 8.0,
+      "bitrate": 8.0,
+      "encoded_size": 11216,
+      "encoding_size": 510,
+      "unencoded_size": 250943,
+      "original_size": 262159
+    },
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 12.02116402116402,
-      "bitrate": 0.9617024847610983,
+      "bitrate": 7.693619878088787,
       "encoded_size": 252118,
       "encoding_size": 473,
       "unencoded_size": 1,
       "original_size": 262159
-    },
+    }
+  },
+  "9": {
     "laplace_30.pgm": {
       "entropy": 7.287260582396562,
-      "avg_bit_length": 8.0,
-      "bitrate": 1.0,
-      "encoded_size": 6926,
-      "encoding_size": 510,
-      "unencoded_size": 255233,
+      "avg_bit_length": 12.007827788649706,
+      "bitrate": 8.85310059925465,
+      "encoded_size": 290115,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 12.007827788649706,
+      "bitrate": 8.903394504861554,
+      "encoded_size": 291764,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
       "original_size": 262159
     },
     "laplace_20.pgm": {
       "entropy": 6.756722433643157,
-      "avg_bit_length": 8.0,
-      "bitrate": 1.0,
-      "encoded_size": 67958,
-      "encoding_size": 510,
-      "unencoded_size": 194201,
+      "avg_bit_length": 12.007827788649706,
+      "bitrate": 8.78341006793587,
+      "encoded_size": 287832,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
       "original_size": 262159
-    }
-  },
-  "9": {
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 27.092702169625248,
+      "bitrate": 2.799578879912114,
+      "encoded_size": 91742,
+      "encoding_size": 2288,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 12.008281573498964,
+      "bitrate": 8.882144042355975,
+      "encoded_size": 291067,
+      "encoding_size": 1269,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 14.043583535108958,
-      "bitrate": 0.884257775845101,
+      "bitrate": 7.074062206760808,
       "encoded_size": 231816,
       "encoding_size": 1190,
       "unencoded_size": 1,
@@ -104,53 +149,26 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 12.009732360097324,
-      "bitrate": 1.072508954489451,
+      "bitrate": 8.580071635915608,
       "encoded_size": 281168,
       "encoding_size": 1080,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
-      "avg_bit_length": 12.007827788649706,
-      "bitrate": 1.1129243131076942,
-      "encoded_size": 291764,
-      "encoding_size": 1342,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 27.092702169625248,
-      "bitrate": 0.3499473599890143,
-      "encoded_size": 91742,
-      "encoding_size": 2288,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "normal_50.pgm": {
-      "entropy": 7.649644473403181,
-      "avg_bit_length": 12.007827788649706,
-      "bitrate": 1.11583809825335,
-      "encoded_size": 292527,
-      "encoding_size": 1342,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 12.008281573498964,
-      "bitrate": 1.1102680052944969,
-      "encoded_size": 291067,
-      "encoding_size": 1269,
       "unencoded_size": 0,
       "original_size": 262159
     },
     "uniform.pgm": {
       "entropy": 7.9993194390339015,
       "avg_bit_length": 12.007827788649706,
-      "bitrate": 1.120266708371637,
+      "bitrate": 8.962133666973097,
       "encoded_size": 293688,
+      "encoding_size": 1342,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 12.007827788649706,
+      "bitrate": 8.9267047860268,
+      "encoded_size": 292527,
       "encoding_size": 1342,
       "unencoded_size": 0,
       "original_size": 262159
@@ -158,36 +176,63 @@
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 14.454352441613588,
-      "bitrate": 0.9713583983704484,
+      "bitrate": 7.770867186963587,
       "encoded_size": 254650,
       "encoding_size": 1381,
       "unencoded_size": 1,
       "original_size": 262159
-    },
+    }
+  },
+  "10": {
     "laplace_30.pgm": {
       "entropy": 7.287260582396562,
-      "avg_bit_length": 12.007827788649706,
-      "bitrate": 1.1066375749068313,
-      "encoded_size": 290115,
-      "encoding_size": 1342,
+      "avg_bit_length": 14.017629774730656,
+      "bitrate": 9.53657894636461,
+      "encoded_size": 312513,
+      "encoding_size": 3066,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 14.017629774730656,
+      "bitrate": 9.69049317398983,
+      "encoded_size": 317557,
+      "encoding_size": 3066,
       "unencoded_size": 0,
       "original_size": 262159
     },
     "laplace_20.pgm": {
       "entropy": 6.756722433643157,
-      "avg_bit_length": 12.007827788649706,
-      "bitrate": 1.0979262584919838,
-      "encoded_size": 287832,
-      "encoding_size": 1342,
+      "avg_bit_length": 14.017629774730656,
+      "bitrate": 9.329490881487953,
+      "encoded_size": 305727,
+      "encoding_size": 3066,
       "unencoded_size": 0,
       "original_size": 262159
-    }
-  },
-  "10": {
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 30.7680157946693,
+      "bitrate": 2.6892003234715207,
+      "encoded_size": 88124,
+      "encoding_size": 5163,
+      "unencoded_size": 3,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 14.018652849740933,
+      "bitrate": 9.617102598041647,
+      "encoded_size": 315152,
+      "encoding_size": 2898,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 15.172413793103448,
-      "bitrate": 0.7967284996071071,
+      "bitrate": 6.373827996856857,
       "encoded_size": 208869,
       "encoding_size": 2920,
       "unencoded_size": 1,
@@ -196,53 +241,26 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 14.021924482338612,
-      "bitrate": 1.0964004668922296,
+      "bitrate": 8.771203735137837,
       "encoded_size": 287432,
       "encoding_size": 2466,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
-      "avg_bit_length": 14.017629774730656,
-      "bitrate": 1.2113116467487288,
-      "encoded_size": 317557,
-      "encoding_size": 3066,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 30.7680157946693,
-      "bitrate": 0.3361500404339401,
-      "encoded_size": 88124,
-      "encoding_size": 5163,
-      "unencoded_size": 3,
-      "original_size": 262159
-    },
-    "normal_50.pgm": {
-      "entropy": 7.649644473403181,
-      "avg_bit_length": 14.017629774730656,
-      "bitrate": 1.2200611079535701,
-      "encoded_size": 319850,
-      "encoding_size": 3066,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 14.018652849740933,
-      "bitrate": 1.202137824755206,
-      "encoded_size": 315152,
-      "encoding_size": 2898,
       "unencoded_size": 0,
       "original_size": 262159
     },
     "uniform.pgm": {
       "entropy": 7.9993194390339015,
       "avg_bit_length": 14.017629774730656,
-      "bitrate": 1.234403548991261,
+      "bitrate": 9.875228391930088,
       "encoded_size": 323610,
+      "encoding_size": 3066,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 14.017629774730656,
+      "bitrate": 9.760488863628561,
+      "encoded_size": 319850,
       "encoding_size": 3066,
       "unencoded_size": 0,
       "original_size": 262159
@@ -250,36 +268,63 @@
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 15.268862911795962,
-      "bitrate": 0.9278434080081173,
+      "bitrate": 7.422747264064938,
       "encoded_size": 243243,
       "encoding_size": 2973,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "laplace_30.pgm": {
-      "entropy": 7.287260582396562,
-      "avg_bit_length": 14.017629774730656,
-      "bitrate": 1.1920723682955763,
-      "encoded_size": 312513,
-      "encoding_size": 3066,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "laplace_20.pgm": {
-      "entropy": 6.756722433643157,
-      "avg_bit_length": 14.017629774730656,
-      "bitrate": 1.166186360185994,
-      "encoded_size": 305727,
-      "encoding_size": 3066,
       "unencoded_size": 0,
       "original_size": 262159
     }
   },
   "11": {
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.024007839294464,
+      "bitrate": 9.909310761789602,
+      "encoded_size": 324727,
+      "encoding_size": 6640,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.024007839294464,
+      "bitrate": 10.249978066745754,
+      "encoded_size": 335891,
+      "encoding_size": 6640,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 15.024007839294464,
+      "bitrate": 9.488711049401317,
+      "encoded_size": 310944,
+      "encoding_size": 6640,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 34.58329262335125,
+      "bitrate": 2.6041700043485227,
+      "encoded_size": 85338,
+      "encoding_size": 11664,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.025401762571281,
+      "bitrate": 10.071273540103524,
+      "encoded_size": 330035,
+      "encoding_size": 6276,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 15.64862104187947,
-      "bitrate": 0.7445910481465375,
+      "bitrate": 5.9567283851723,
       "encoded_size": 195201,
       "encoding_size": 6523,
       "unencoded_size": 1,
@@ -288,53 +333,26 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 15.14192849404117,
-      "bitrate": 1.0354223407258218,
+      "bitrate": 8.283378725806575,
       "encoded_size": 271445,
       "encoding_size": 6033,
       "unencoded_size": 1,
       "original_size": 262159
     },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
       "avg_bit_length": 15.024007839294464,
-      "bitrate": 1.2812472583432193,
-      "encoded_size": 335891,
+      "bitrate": 10.685934871585564,
+      "encoded_size": 350177,
       "encoding_size": 6640,
       "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 34.58329262335125,
-      "bitrate": 0.32552125054356534,
-      "encoded_size": 85338,
-      "encoding_size": 11664,
-      "unencoded_size": 1,
       "original_size": 262159
     },
     "normal_50.pgm": {
       "entropy": 7.649644473403181,
       "avg_bit_length": 15.024007839294464,
-      "bitrate": 1.3009156656838026,
+      "bitrate": 10.40732532547042,
       "encoded_size": 341047,
-      "encoding_size": 6640,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 15.025401762571281,
-      "bitrate": 1.2589091925129405,
-      "encoded_size": 330035,
-      "encoding_size": 6276,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "uniform.pgm": {
-      "entropy": 7.9993194390339015,
-      "avg_bit_length": 15.024007839294464,
-      "bitrate": 1.3357418589481955,
-      "encoded_size": 350177,
       "encoding_size": 6640,
       "unencoded_size": 0,
       "original_size": 262159
@@ -342,36 +360,63 @@
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 15.69620253164557,
-      "bitrate": 0.8171148043744445,
+      "bitrate": 6.536918434995556,
       "encoded_size": 214214,
       "encoding_size": 6591,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "laplace_30.pgm": {
-      "entropy": 7.287260582396562,
-      "avg_bit_length": 15.024007839294464,
-      "bitrate": 1.2386638452237002,
-      "encoded_size": 324727,
-      "encoding_size": 6640,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "laplace_20.pgm": {
-      "entropy": 6.756722433643157,
-      "avg_bit_length": 15.024007839294464,
-      "bitrate": 1.1860888811751646,
-      "encoded_size": 310944,
-      "encoding_size": 6640,
       "unencoded_size": 0,
       "original_size": 262159
     }
   },
   "12": {
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.527566772849791,
+      "bitrate": 9.832429937556979,
+      "encoded_size": 322208,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.527566772849791,
+      "bitrate": 10.41993599304239,
+      "encoded_size": 341460,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 15.527566772849791,
+      "bitrate": 9.157816439641591,
+      "encoded_size": 300101,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 38.20376252137796,
+      "bitrate": 2.538503791635515,
+      "encoded_size": 83186,
+      "encoding_size": 25686,
+      "unencoded_size": 3,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.529167746953592,
+      "bitrate": 10.034429487448456,
+      "encoded_size": 328827,
+      "encoding_size": 13273,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 18.124440019910402,
-      "bitrate": 0.7390314237978624,
+      "bitrate": 5.912251390382899,
       "encoded_size": 193743,
       "encoding_size": 15130,
       "unencoded_size": 1,
@@ -380,53 +425,26 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 15.613963039014374,
-      "bitrate": 0.9428533828707006,
+      "bitrate": 7.542827062965605,
       "encoded_size": 247178,
       "encoding_size": 13448,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
-      "avg_bit_length": 15.527566772849791,
-      "bitrate": 1.3024919991302988,
-      "encoded_size": 341460,
-      "encoding_size": 14043,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 38.20376252137796,
-      "bitrate": 0.31731297395443936,
-      "encoded_size": 83186,
-      "encoding_size": 25686,
-      "unencoded_size": 3,
-      "original_size": 262159
-    },
-    "normal_50.pgm": {
-      "entropy": 7.649644473403181,
-      "avg_bit_length": 15.527566772849791,
-      "bitrate": 1.3384358347415117,
-      "encoded_size": 350883,
-      "encoding_size": 14043,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 15.529167746953592,
-      "bitrate": 1.254303685931057,
-      "encoded_size": 328827,
-      "encoding_size": 13273,
       "unencoded_size": 0,
       "original_size": 262159
     },
     "uniform.pgm": {
       "entropy": 7.9993194390339015,
       "avg_bit_length": 15.527566772849791,
-      "bitrate": 1.4119027002696836,
+      "bitrate": 11.295221602157469,
       "encoded_size": 370143,
+      "encoding_size": 14043,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.527566772849791,
+      "bitrate": 10.707486677932094,
+      "encoded_size": 350883,
       "encoding_size": 14043,
       "unencoded_size": 0,
       "original_size": 262159
@@ -434,36 +452,63 @@
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 15.895127380657927,
-      "bitrate": 0.7637436202595381,
+      "bitrate": 6.109948962076305,
       "encoded_size": 200222,
       "encoding_size": 14098,
       "unencoded_size": 1,
       "original_size": 262159
-    },
+    }
+  },
+  "13": {
     "laplace_30.pgm": {
       "entropy": 7.287260582396562,
-      "avg_bit_length": 15.527566772849791,
-      "bitrate": 1.2290537421946224,
-      "encoded_size": 322208,
-      "encoding_size": 14043,
+      "avg_bit_length": 15.779438794265408,
+      "bitrate": 9.271744520480016,
+      "encoded_size": 303833,
+      "encoding_size": 29359,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.779438794265408,
+      "bitrate": 10.071666431440462,
+      "encoded_size": 330048,
+      "encoding_size": 29359,
       "unencoded_size": 0,
       "original_size": 262159
     },
     "laplace_20.pgm": {
       "entropy": 6.756722433643157,
-      "avg_bit_length": 15.527566772849791,
-      "bitrate": 1.1447270549551989,
-      "encoded_size": 300101,
-      "encoding_size": 14043,
+      "avg_bit_length": 15.779438794265408,
+      "bitrate": 8.453404231783002,
+      "encoded_size": 277017,
+      "encoding_size": 29359,
       "unencoded_size": 0,
       "original_size": 262159
-    }
-  },
-  "13": {
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 41.99291386682957,
+      "bitrate": 2.488226430928268,
+      "encoded_size": 81538,
+      "encoding_size": 56265,
+      "unencoded_size": 4,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.788785516721147,
+      "bitrate": 9.247594961816919,
+      "encoded_size": 303042,
+      "encoding_size": 28624,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 20.632096338166626,
-      "bitrate": 0.7274248735495388,
+      "bitrate": 5.81939898839631,
       "encoded_size": 190701,
       "encoding_size": 34213,
       "unencoded_size": 1,
@@ -472,53 +517,26 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 15.831915957978989,
-      "bitrate": 0.8781550629772885,
+      "bitrate": 7.025240503818308,
       "encoded_size": 230216,
       "encoding_size": 28818,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
-      "avg_bit_length": 15.779438794265408,
-      "bitrate": 1.2589583039300578,
-      "encoded_size": 330048,
-      "encoding_size": 29359,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 41.99291386682957,
-      "bitrate": 0.3110283038660335,
-      "encoded_size": 81538,
-      "encoding_size": 56265,
-      "unencoded_size": 4,
-      "original_size": 262159
-    },
-    "normal_50.pgm": {
-      "entropy": 7.649644473403181,
-      "avg_bit_length": 15.779438794265408,
-      "bitrate": 1.3063274577641812,
-      "encoded_size": 342466,
-      "encoding_size": 29359,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 15.788785516721147,
-      "bitrate": 1.1559493702271149,
-      "encoded_size": 303042,
-      "encoding_size": 28624,
       "unencoded_size": 1,
       "original_size": 262159
     },
     "uniform.pgm": {
       "entropy": 7.9993194390339015,
       "avg_bit_length": 15.779438794265408,
-      "bitrate": 1.4412198322392136,
+      "bitrate": 11.529758657913709,
       "encoded_size": 377829,
+      "encoding_size": 29359,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.779438794265408,
+      "bitrate": 10.45061966211345,
+      "encoded_size": 342466,
       "encoding_size": 29359,
       "unencoded_size": 0,
       "original_size": 262159
@@ -526,36 +544,63 @@
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 19.2091942780291,
-      "bitrate": 0.7952773889128354,
+      "bitrate": 6.362219111302683,
       "encoded_size": 208490,
       "encoding_size": 32930,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "laplace_30.pgm": {
-      "entropy": 7.287260582396562,
-      "avg_bit_length": 15.779438794265408,
-      "bitrate": 1.158968065060002,
-      "encoded_size": 303833,
-      "encoding_size": 29359,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "laplace_20.pgm": {
-      "entropy": 6.756722433643157,
-      "avg_bit_length": 15.779438794265408,
-      "bitrate": 1.0566755289728753,
-      "encoded_size": 277017,
-      "encoding_size": 29359,
       "unencoded_size": 0,
       "original_size": 262159
     }
   },
   "14": {
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 15.905397953556767,
+      "bitrate": 8.480649074222416,
+      "encoded_size": 277909,
+      "encoding_size": 61011,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.905397953556767,
+      "bitrate": 9.271671008815261,
+      "encoded_size": 303832,
+      "encoding_size": 61011,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 15.905397953556767,
+      "bitrate": 7.8083834619448504,
+      "encoded_size": 255880,
+      "encoding_size": 61011,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 45.53289755024742,
+      "bitrate": 2.4464940989784787,
+      "encoded_size": 80171,
+      "encoding_size": 121812,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.912806539509537,
+      "bitrate": 8.103731337590308,
+      "encoded_size": 265558,
+      "encoding_size": 60379,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 22.114055440224693,
-      "bitrate": 0.7095550791695117,
+      "bitrate": 5.676440633356093,
       "encoded_size": 186017,
       "encoding_size": 73935,
       "unencoded_size": 0,
@@ -564,53 +609,26 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 17.253148925660657,
-      "bitrate": 0.8799464445105624,
+      "bitrate": 7.039571556084499,
       "encoded_size": 230685,
       "encoding_size": 63272,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
-      "avg_bit_length": 15.905397953556767,
-      "bitrate": 1.1589588761019076,
-      "encoded_size": 303832,
-      "encoding_size": 61011,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 45.53289755024742,
-      "bitrate": 0.30581176237230984,
-      "encoded_size": 80171,
-      "encoding_size": 121812,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "normal_50.pgm": {
-      "entropy": 7.649644473403181,
-      "avg_bit_length": 15.905397953556767,
-      "bitrate": 1.189652081370466,
-      "encoded_size": 311878,
-      "encoding_size": 61011,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 15.912806539509537,
-      "bitrate": 1.0129664171987884,
-      "encoded_size": 265558,
-      "encoding_size": 60379,
       "unencoded_size": 1,
       "original_size": 262159
     },
     "uniform.pgm": {
       "entropy": 7.9993194390339015,
       "avg_bit_length": 15.905397953556767,
-      "bitrate": 1.3938506784050901,
+      "bitrate": 11.150805427240721,
       "encoded_size": 365411,
+      "encoding_size": 61011,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.905397953556767,
+      "bitrate": 9.517216650963729,
+      "encoded_size": 311878,
       "encoding_size": 61011,
       "unencoded_size": 0,
       "original_size": 262159
@@ -618,36 +636,63 @@
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 21.555052882557927,
-      "bitrate": 0.8078555979813623,
+      "bitrate": 6.4628447838508984,
       "encoded_size": 211785,
       "encoding_size": 72697,
       "unencoded_size": 2,
       "original_size": 262159
-    },
+    }
+  },
+  "15": {
     "laplace_30.pgm": {
       "entropy": 7.287260582396562,
-      "avg_bit_length": 15.905397953556767,
-      "bitrate": 1.060081134277802,
-      "encoded_size": 277909,
-      "encoding_size": 61011,
+      "avg_bit_length": 15.968383321589412,
+      "bitrate": 7.978165838921567,
+      "encoded_size": 261443,
+      "encoding_size": 126355,
       "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.968383321589412,
+      "bitrate": 8.417620604289763,
+      "encoded_size": 275845,
+      "encoding_size": 126355,
+      "unencoded_size": 0,
       "original_size": 262159
     },
     "laplace_20.pgm": {
       "entropy": 6.756722433643157,
-      "avg_bit_length": 15.905397953556767,
-      "bitrate": 0.9760479327431063,
-      "encoded_size": 255880,
-      "encoding_size": 61011,
-      "unencoded_size": 0,
+      "avg_bit_length": 15.968383321589412,
+      "bitrate": 7.6586638591994145,
+      "encoded_size": 250973,
+      "encoding_size": 126355,
+      "unencoded_size": 1,
       "original_size": 262159
-    }
-  },
-  "15": {
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 49.15730028389145,
+      "bitrate": 2.4093563682277144,
+      "encoded_size": 78953,
+      "encoding_size": 262717,
+      "unencoded_size": 6,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 15.97344479960659,
+      "bitrate": 7.596068020048978,
+      "encoded_size": 248922,
+      "encoding_size": 125969,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 22.919737444664936,
-      "bitrate": 0.696085471356968,
+      "bitrate": 5.568683770855744,
       "encoded_size": 182485,
       "encoding_size": 155258,
       "unencoded_size": 1,
@@ -656,53 +701,26 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 20.26481776905142,
-      "bitrate": 0.887527750440574,
+      "bitrate": 7.100222003524592,
       "encoded_size": 232673,
       "encoding_size": 143687,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
-      "avg_bit_length": 15.968383321589412,
-      "bitrate": 1.0522025755362203,
-      "encoded_size": 275845,
-      "encoding_size": 126355,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 49.15730028389145,
-      "bitrate": 0.3011695460284643,
-      "encoded_size": 78953,
-      "encoding_size": 262717,
-      "unencoded_size": 6,
-      "original_size": 262159
-    },
-    "normal_50.pgm": {
-      "entropy": 7.649644473403181,
-      "avg_bit_length": 15.968383321589412,
-      "bitrate": 1.0447611745588539,
-      "encoded_size": 273893,
-      "encoding_size": 126355,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 15.97344479960659,
-      "bitrate": 0.9495085025061223,
-      "encoded_size": 248922,
-      "encoding_size": 125969,
       "unencoded_size": 1,
       "original_size": 262159
     },
     "uniform.pgm": {
       "entropy": 7.9993194390339015,
       "avg_bit_length": 15.968383321589412,
-      "bitrate": 1.243470063854622,
+      "bitrate": 9.947760510836977,
       "encoded_size": 325986,
+      "encoding_size": 126355,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.968383321589412,
+      "bitrate": 8.358089396470831,
+      "encoded_size": 273893,
       "encoding_size": 126355,
       "unencoded_size": 1,
       "original_size": 262159
@@ -710,36 +728,63 @@
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 22.79705315929447,
-      "bitrate": 0.7918418161635966,
+      "bitrate": 6.334734529308773,
       "encoded_size": 207587,
       "encoding_size": 154557,
       "unencoded_size": 2,
       "original_size": 262159
-    },
+    }
+  },
+  "16": {
     "laplace_30.pgm": {
       "entropy": 7.287260582396562,
-      "avg_bit_length": 15.968383321589412,
-      "bitrate": 0.9972707298651958,
-      "encoded_size": 261443,
-      "encoding_size": 126355,
+      "avg_bit_length": 15.999877452857646,
+      "bitrate": 8.001586829316672,
+      "encoded_size": 262210,
+      "encoding_size": 261123,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 15.999877452857646,
+      "bitrate": 8.003173658633344,
+      "encoded_size": 262262,
+      "encoding_size": 261123,
       "unencoded_size": 1,
       "original_size": 262159
     },
     "laplace_20.pgm": {
       "entropy": 6.756722433643157,
-      "avg_bit_length": 15.968383321589412,
-      "bitrate": 0.9573329823999268,
-      "encoded_size": 250973,
-      "encoding_size": 126355,
+      "avg_bit_length": 18.90608293377859,
+      "bitrate": 7.883795268502201,
+      "encoded_size": 258350,
+      "encoding_size": 284838,
       "unencoded_size": 1,
       "original_size": 262159
-    }
-  },
-  "16": {
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 53.19828441473206,
+      "bitrate": 2.3790076787219676,
+      "encoded_size": 77958,
+      "encoding_size": 566708,
+      "unencoded_size": 6,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 18.660215580597747,
+      "bitrate": 7.945986771336369,
+      "encoded_size": 260388,
+      "encoding_size": 282966,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
     "geometr_09.pgm": {
       "entropy": 4.693955366279032,
       "avg_bit_length": 24.92005678609046,
-      "bitrate": 0.6912854080363751,
+      "bitrate": 5.5302832642910005,
       "encoded_size": 181226,
       "encoding_size": 335079,
       "unencoded_size": 1,
@@ -748,53 +793,26 @@
     "laplace_10.pgm": {
       "entropy": 5.767712431796381,
       "avg_bit_length": 21.932105939201175,
-      "bitrate": 0.8776539338871978,
+      "bitrate": 7.0212314710975825,
       "encoded_size": 230084,
       "encoding_size": 310076,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "geometr_099.pgm": {
-      "entropy": 7.6543788986076295,
-      "avg_bit_length": 15.999877452857646,
-      "bitrate": 1.000396707329168,
-      "encoded_size": 262262,
-      "encoding_size": 261123,
-      "unencoded_size": 1,
-      "original_size": 262159
-    },
-    "geometr_05.pgm": {
-      "entropy": 2.0018147001616033,
-      "avg_bit_length": 53.19828441473206,
-      "bitrate": 0.29737595984024595,
-      "encoded_size": 77958,
-      "encoding_size": 566708,
-      "unencoded_size": 6,
-      "original_size": 262159
-    },
-    "normal_50.pgm": {
-      "entropy": 7.649644473403181,
-      "avg_bit_length": 15.999877452857646,
-      "bitrate": 1.0002631990509576,
-      "encoded_size": 262228,
-      "encoding_size": 261123,
-      "unencoded_size": 0,
-      "original_size": 262159
-    },
-    "normal_30.pgm": {
-      "entropy": 6.954612117038315,
-      "avg_bit_length": 18.660215580597747,
-      "bitrate": 0.9932483464170462,
-      "encoded_size": 260388,
-      "encoding_size": 282966,
       "unencoded_size": 1,
       "original_size": 262159
     },
     "uniform.pgm": {
       "entropy": 7.9993194390339015,
       "avg_bit_length": 15.999877452857646,
-      "bitrate": 1.001758474818717,
+      "bitrate": 8.014067798549735,
       "encoded_size": 262620,
+      "encoding_size": 261123,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 15.999877452857646,
+      "bitrate": 8.002105592407661,
+      "encoded_size": 262228,
       "encoding_size": 261123,
       "unencoded_size": 0,
       "original_size": 262159
@@ -802,28 +820,286 @@
     "normal_10.pgm": {
       "entropy": 5.369402051994448,
       "avg_bit_length": 23.3960835788092,
-      "bitrate": 0.7588124673382743,
+      "bitrate": 6.070499738706195,
       "encoded_size": 198928,
       "encoding_size": 322649,
       "unencoded_size": 2,
       "original_size": 262159
-    },
+    }
+  },
+  "17": {
     "laplace_30.pgm": {
       "entropy": 7.287260582396562,
-      "avg_bit_length": 15.999877452857646,
-      "bitrate": 1.000198353664584,
-      "encoded_size": 262210,
-      "encoding_size": 261123,
+      "avg_bit_length": 20.01565563702116,
+      "bitrate": 8.270184392618193,
+      "encoded_size": 271012,
+      "encoding_size": 606460,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 20.01565563702116,
+      "bitrate": 8.390279907536677,
+      "encoded_size": 274948,
+      "encoding_size": 606460,
       "unencoded_size": 1,
       "original_size": 262159
     },
     "laplace_20.pgm": {
       "entropy": 6.756722433643157,
-      "avg_bit_length": 18.90608293377859,
-      "bitrate": 0.9854744085627751,
-      "encoded_size": 258350,
-      "encoding_size": 284838,
+      "avg_bit_length": 21.260782324083895,
+      "bitrate": 7.9954645844697305,
+      "encoded_size": 262011,
+      "encoding_size": 626860,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 57.406676586166114,
+      "bitrate": 2.3551361227985184,
+      "encoded_size": 77176,
+      "encoding_size": 1218921,
+      "unencoded_size": 6,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 21.351632228878834,
+      "bitrate": 8.25857688874648,
+      "encoded_size": 270632,
+      "encoding_size": 627356,
       "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 27.190669913064717,
+      "bitrate": 5.480362987206188,
+      "encoded_size": 179591,
+      "encoding_size": 723717,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 22.836972121286145,
+      "bitrate": 6.857921016795279,
+      "encoded_size": 224732,
+      "encoding_size": 652311,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 20.01565563702116,
+      "bitrate": 8.482167242655192,
+      "encoded_size": 277959,
+      "encoding_size": 606460,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 20.01565563702116,
+      "bitrate": 8.43155489607452,
+      "encoded_size": 276301,
+      "encoding_size": 606460,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 23.700420491922127,
+      "bitrate": 5.907788081187991,
+      "encoded_size": 193596,
+      "encoding_size": 666658,
+      "unencoded_size": 2,
+      "original_size": 262159
+    }
+  },
+  "18": {
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 22.023506433560566,
+      "bitrate": 8.412537477399125,
+      "encoded_size": 275677,
+      "encoding_size": 1311476,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 22.023506433560566,
+      "bitrate": 8.697240987339745,
+      "encoded_size": 285008,
+      "encoding_size": 1311476,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 22.529341079800567,
+      "bitrate": 7.9507627050759275,
+      "encoded_size": 260546,
+      "encoding_size": 1328051,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 61.56826930046427,
+      "bitrate": 2.330359288517949,
+      "encoded_size": 76365,
+      "encoding_size": 2607164,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 22.693641971538508,
+      "bitrate": 8.392694481953631,
+      "encoded_size": 275027,
+      "encoding_size": 1332554,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 28.786400952177495,
+      "bitrate": 5.424415810312865,
+      "encoded_size": 177757,
+      "encoding_size": 1533050,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 23.350359363489584,
+      "bitrate": 6.6982380787085605,
+      "encoded_size": 219499,
+      "encoding_size": 1354178,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 22.023506433560566,
+      "bitrate": 8.943251995926136,
+      "encoded_size": 293070,
+      "encoding_size": 1311476,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 22.023506433560566,
+      "bitrate": 8.788936442908476,
+      "encoded_size": 288012,
+      "encoding_size": 1311476,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 25.59433440300985,
+      "bitrate": 6.000938361833849,
+      "encoded_size": 196650,
+      "encoding_size": 1428113,
+      "unencoded_size": 0,
+      "original_size": 262159
+    }
+  },
+  "19": {
+    "laplace_30.pgm": {
+      "entropy": 7.287260582396562,
+      "avg_bit_length": 23.027437576414176,
+      "bitrate": 8.393880789447586,
+      "encoded_size": 275066,
+      "encoding_size": 2754274,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_099.pgm": {
+      "entropy": 7.6543788986076295,
+      "avg_bit_length": 23.027437576414176,
+      "bitrate": 8.86167554804527,
+      "encoded_size": 290396,
+      "encoding_size": 2754274,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "laplace_20.pgm": {
+      "entropy": 6.756722433643157,
+      "avg_bit_length": 23.206425561864727,
+      "bitrate": 7.779404864986516,
+      "encoded_size": 254931,
+      "encoding_size": 2766004,
+      "unencoded_size": 0,
+      "original_size": 262159
+    },
+    "geometr_05.pgm": {
+      "entropy": 2.0018147001616033,
+      "avg_bit_length": 65.61700455669934,
+      "bitrate": 2.3108774098063,
+      "encoded_size": 75727,
+      "encoding_size": 5545408,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_30.pgm": {
+      "entropy": 6.954612117038315,
+      "avg_bit_length": 23.345334391502092,
+      "bitrate": 8.283645740355054,
+      "encoded_size": 271453,
+      "encoding_size": 2774551,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "geometr_09.pgm": {
+      "entropy": 4.693955366279032,
+      "avg_bit_length": 30.0626813232088,
+      "bitrate": 5.369048436439094,
+      "encoded_size": 175943,
+      "encoding_size": 3215268,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "laplace_10.pgm": {
+      "entropy": 5.767712431796381,
+      "avg_bit_length": 23.90757479215393,
+      "bitrate": 6.636740579118619,
+      "encoded_size": 217484,
+      "encoding_size": 2811444,
+      "unencoded_size": 2,
+      "original_size": 262159
+    },
+    "uniform.pgm": {
+      "entropy": 7.9993194390339015,
+      "avg_bit_length": 23.027437576414176,
+      "bitrate": 9.356426277283164,
+      "encoded_size": 306608,
+      "encoding_size": 2754274,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_50.pgm": {
+      "entropy": 7.649644473403181,
+      "avg_bit_length": 23.027437576414176,
+      "bitrate": 9.010066448477636,
+      "encoded_size": 295258,
+      "encoding_size": 2754274,
+      "unencoded_size": 1,
+      "original_size": 262159
+    },
+    "normal_10.pgm": {
+      "entropy": 5.369402051994448,
+      "avg_bit_length": 28.56631421927785,
+      "bitrate": 6.059689422750489,
+      "encoded_size": 198574,
+      "encoding_size": 3117015,
+      "unencoded_size": 2,
       "original_size": 262159
     }
   }

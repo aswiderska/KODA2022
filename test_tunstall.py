@@ -15,6 +15,15 @@ class Test(TestCase):
         self.assertAlmostEqual(9 / 121,
                                tun._construct_tree(b'hello_world')[b'll'])
 
+    def test_encode_str(self):
+        content = b'aaaaaaacaaaddb'
+
+        tun = Tunstall(k=4)
+        args = tun.encode(content)
+        decoded = tun.decode(*args)
+
+        self.assertEqual(content, decoded)
+
     def test_encode_decode_iamges(self):
         images_dir = Path('./data/obrazy')
         for image in images_dir.iterdir():
